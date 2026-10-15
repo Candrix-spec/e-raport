@@ -1,0 +1,1 @@
+{"dependencies":{"express":"^4.21.0"},"description":"E-Raport SMK 11 Maret Jakarta: guru isi nilai via web, otomatis tersinkron ke Legger kurikulum","engines":{"node":">=22.5.0"},"license":"MIT","main":"server.js","name":"e-raport","scripts":{"start":"node server.js"},"version":"1.0.0"}

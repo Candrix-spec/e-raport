@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — E-Raport</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  .prog-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); gap:10px; }
+  .prog-card { background:#fff; border-radius:8px; padding:12px 14px; box-shadow:0 1px 3px rgba(0,0,0,.08); }
+  .prog-card h4 { margin:0 0 6px; font-size:15px; }
+  .mapel-chips { display:flex; flex-wrap:wrap; gap:4px; margin-top:6px; }
+  td.angka { text-align:center; }
+  td.jumlah { font-weight:700; background:#f0fdf4; text-align:center; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="judul">📋 E-Raport — <span style="font-weight:400;font-size:14px">Panel Kurikulum</span></div>
+  <button onclick="keluar()">Keluar</button>
+</div>
+<div class="wrap">
+  <div class="tabs no-print">
+    <button data-tab="dash" class="aktif" onclick="pindah('dash')">📊 Progres</button>
+    <button data-tab="legger" onclick="pindah('legger')">📑 Legger</button>
+    <button data-tab="guru" onclick="pindah('guru')">👩‍🏫 Guru &amp; Tugas</button>
+    <button data-tab="data" onclick="pindah('data')">💾 Data &amp; Backup</button>
+  </div>
+
+  <!-- PROGRES -->
+  <div id="tab-dash">
+    <div class="card">
+      <h3 style="margin-top:0">Progres pengisian nilai — <span id="namaPeriode"></span></h3>
+      <p class="hint">Hijau = guru sudah mengisi semua siswa di mapel itu. Klik Legger untuk melihat hasilnya.</p>
+      <div class="prog-grid" id="progKelas"></div>
+    </div>
+  </div>
+
+  <!-- LEGGER -->
+  <div id="tab-legger" style="display:none">
+    <div class="card no-print">
+      <div class="form-baris">
+        <label>Tingkat:</label>
+        <select id="pilihTingkat" onchange="muatLegger()">
+          <option value="X">Kelas X</option>
+          <option value="XI">Kelas XI</option>
+          <option value="XII">Kelas XII</option>
+        </select>
+        <button class="btn kecil" onclick="window.print()">🖨️ Cetak Legger</button>
+        <span class="hint">Hasil cetakan mirip file Legger Excel (landscape).</span>
+      </div>
+    </div>
+    <div class="card" id="kertasLegger">
+      <div class="kop">
+        <h2>DAFTAR NILAI SISWA</h2>
+        <h3>SMK 11 MARET JAKARTA</h3>
+        <p id="legTahun"></p>
+      </div>
+      <div class="scroll-x">
+      <table class="excel" id="tblLegger" style="font-size:12.5px">
+        <thead id="headLegger"></thead>
+        <tbody id="bdLegger"></tbody>
+      </table>
+      </div>
+      <div class="ttd no-print" style="margin-top:14px">
+        <div class="kol"><div id="tglLegger"></div><div style="margin-top:56px">Kurikulum</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GURU & TUGAS -->
+  <div id="tab-guru" style="display:none">
+    <div class="card">
+      <h3 style="margin-top:0">Tambah akun guru</h3>
+      <div class="form-baris">
+        <label>Nama:</label><input class="teks" id="gNama" placeholder="cth: Budi Santoso, S.Pd">
+        <label>Username:</label><input class="teks" id="gUser" placeholder="cth: budi.santoso">
+        <label>Password:</label><input class="teks" id="gPass" placeholder="min. 6 karakter">
+        <button class="btn kecil" onclick="tambahGuru()">＋ Tambah</button>
+      </div>
+      <p class="hint">Berikan username &amp; password ini ke guru. Guru login di link aplikasi lalu pilih "Isi Nilai".</p>
+      <div class="scroll-x"><table class="excel" id="tblGuru">
+        <thead><tr><th>Nama</th><th>Username</th><th>Peran</th><th>Aksi</th></tr></thead>
+        <tbody id="bdGuru"></tbody>
+      </table></div>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Tugaskan mapel ke guru</h3>
+      <div class="form-baris">
+        <label>Guru:</label><select id="tGuru"></select>
+        <label>Mapel:</label><select id="tMapel"></select>
+        <label>Kelas:</label><select id="tKelas"></select>
+        <button class="btn kecil" onclick="tambahTugas()">＋ Tugaskan</button>
+      </div>
+      <div class="scroll-x"><table class="excel" id="tblTugas">
+        <thead><tr><th>Guru</th><th>Mapel</th><th>Kelas</th><th>Aksi</th></tr></thead>
+        <tbody id="bdTugas"></tbody>
+      </table></div>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Tentukan wali kelas <span class="hint">(agar bisa mengisi kehadiran &amp; catatan)</span></h3>
+      <div class="form-baris">
+        <label>Kelas:</label><select id="wKelas"></select>
+        <label>Wali (akun guru):</label><select id="wGuru"></select>
+        <button class="btn kecil" onclick="simpanWali()">💾 Simpan</button>
+      </div>
+      <div class="scroll-x"><table class="excel">
+        <thead><tr><th>Kelas</th><th>Wali kelas (nama di raport)</th><th>Akun wali</th></tr></thead>
+        <tbody id="bdWaliKelas"></tbody>
+      </table></div>
+    </div>
+  </div>
+
+  <!-- DATA & BACKUP -->
+  <div id="tab-data" style="display:none">
+    <div class="card">
+      <h3 style="margin-top:0">Periode penilaian</h3>
+      <div class="form-baris">
+        <label>Nama:</label><input class="teks" id="pNama" placeholder="cth: Akhir Ganjil">
+        <label>Tahun:</label><input class="teks" id="pTahun" placeholder="2026/2027" style="width:110px">
+        <button class="btn kecil" onclick="tambahPeriode()">＋ Tambah periode</button>
+      </div>
+      <p class="hint">Periode baru memakai kolom nilai yang sama (Absensi 0.1, NH 0.6, PTS 0.3). Nilai periode lama tetap tersimpan dan bisa dilihat lagi kapan saja.</p>
+      <div class="scroll-x"><table class="excel">
+        <thead><tr><th>Periode</th><th>Tahun</th><th>Semester</th><th>Status</th><th>Aksi</th></tr></thead>
+        <tbody id="bdPeriode"></tbody>
+      </table></div>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Backup &amp; Restore</h3>
+      <p class="hint">Unduh backup secara berkala. Data tidak akan hilang saat aplikasi diperbarui.</p>
+      <button class="btn kecil" onclick="location.href='/api/admin/backup'">⬇️ Unduh Backup (JSON)</button>
+      <div class="form-baris" style="margin-top:10px">
+        <label>Pulihkan dari file:</label><input type="file" id="fRestore" accept=".json">
+        <button class="btn kecil merah" onclick="restore()">⚠️ Pulihkan</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+let DASH = null, LEG = null, USERS = [], SUBJECTS = [], CLASSES = [];
+
+async function api(url, opt) {
+  const r = await fetch(url, opt);
+  if (r.status === 401 || r.status === 403) { location.href = '/'; return null; }
+  return r.json();
+}
+function keluar() { api('/api/logout', { method: 'POST' }).then(() => location.href = '/'); }
+function pindah(tab) {
+  ['dash','legger','guru','data'].forEach(t => {
+    document.getElementById('tab-' + t).style.display = t === tab ? '' : 'none';
+  });
+  document.querySelectorAll('.tabs button').forEach(b => b.classList.toggle('aktif', b.dataset.tab === tab));
+  if (tab === 'legger') muatLegger();
+  if (tab === 'guru') muatGuru();
+  if (tab === 'data') muatPeriode();
+}
+function esc(s) { return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+async function init() {
+  const me = await api('/api/me');
+  if (!me || !me.user || me.user.role !== 'admin') { location.href = '/'; return; }
+  const d = await api('/api/admin/dashboard');
+  DASH = d;
+  namaPeriode.textContent = `${d.periode.nama} ${d.periode.tahun}`;
+  renderProgres();
+  const u = await api('/api/admin/users'); USERS = u.users;
+  const s = await api('/api/admin/subjects'); SUBJECTS = s.subjects;
+  const c = await api('/api/admin/classes'); CLASSES = c.classes;
+}
+
+// ---------- progres ----------
+function renderProgres() {
+  const el = document.getElementById('progKelas');
+  el.innerHTML = '';
+  for (const k of DASH.kelas) {
+    let ok = 0;
+    const chips = k.mapel.map(m => {
+      const isi = k.terisi[m.id] || 0;
+      const penuh = isi >= k.nSiswa && k.nSiswa > 0;
+      if (penuh) ok++;
+      const cls = penuh ? 'ok' : (isi > 0 ? 'sebagian' : 'belum');
+      return `<span class="badge ${cls}">${esc(m.kode)}</span>`;
+    }).join('');
+    const semua = ok === k.mapel.length;
+    const d = document.createElement('div');
+    d.className = 'prog-card';
+    d.innerHTML = `<h4>${esc(k.nama)} <span class="badge ${semua ? 'ok' : 'belum'}">${ok}/${k.mapel.length}</span></h4>
+      <div class="hint">Wali: ${esc(k.wali || '-')} • ${k.nSiswa} siswa</div>
+      <div class="mapel-chips">${chips}</div>`;
+    el.appendChild(d);
+  }
+}
+
+// ---------- legger ----------
+async function muatLegger() {
+  const t = pilihTingkat.value;
+  const j = await api('/api/admin/legger?tingkat=' + t);
+  if (!j || !j.ok) return;
+  LEG = j;
+  legTahun.textContent = 'TAHUN PELAJARAN ' + j.periode.tahun + ' — ' + j.periode.nama + ' ' + j.periode.semester;
+  tglLegger.textContent = 'Jakarta, ' + fmtTgl();
+  const head = document.getElementById('headLegger');
+  const bd = document.getElementById('bdLegger');
+  head.innerHTML = ''; bd.innerHTML = '';
+  // header dua baris seperti Excel
+  const h1 = document.createElement('tr');
+  const h2 = document.createElement('tr');
+  const th = (t, rowspan, colspan, sticky) =>
+    `<th ${rowspan > 1 ? `rowspan="${rowspan}"` : ''} ${colspan > 1 ? `colspan="${colspan}"` : ''} ${sticky ? 'class="sticky-kiri"' : ''}>${t}</th>`;
+  h1.innerHTML =
+    th('No.', 2, 0, true) + th('NIS', 2, 0) + th('NISN', 2, 0) + th('Nama Siswa', 2, 0, true) +
+    th('Kelas', 2, 0) + th('Semester', 2, 0) + th('Wali Kelas', 2, 0) +
+    `<th colspan="${LEG.kelas[0]?.mapel.length || 14}">Nilai Mata Pelajaran</th>` +
+    th('Jumlah', 2, 0) + th('Rat', 2, 0) + th('Rank', 2, 0) +
+    th('Kepribadian', 1, 2) + th('Absensi', 1, 4) + th('Catatan Untuk Orang Tua', 2, 0);
+  h2.innerHTML =
+    LEG.kelas[0].mapel.map(m => `<th>${esc(m.kode)}</th>`).join('') +
+    th('Catatan Kasus', 1, 0) + th('Tindak Lanjut', 1, 0) +
+    th('S', 1, 0) + th('I', 1, 0) + th('A', 1, 0) + th('Terlambat', 1, 0);
+  head.appendChild(h1); head.appendChild(h2);
+  let no = 0;
+  for (const k of LEG.kelas) {
+    for (const s of k.siswa) {
+      no++;
+      const tr = document.createElement('tr');
+      const sem = { 'X': 'I (Satu)', 'XI': 'III (Tiga)', 'XII': 'V (Lima)' }[t] || '';
+      tr.innerHTML =
+        `<td class="tengah">${no}</td><td class="tengah">${esc(s.nis)}</td><td class="tengah">${esc(s.nisn)}</td>` +
+        `<td class="nama sticky-kiri">${esc(s.nama)}</td>` +
+        `<td class="tengah">${esc(s.kelas)}</td><td class="tengah">${sem}</td><td>${esc(s.wali)}</td>` +
+        s.nilai.map(v => `<td class="angka">${v ?? ''}</td>`).join('') +
+        `<td class="jumlah">${s.jumlah}</td><td class="angka">${s.rat ?? ''}</td><td class="angka"><b>${s.rank}</b></td>` +
+        `<td>${esc(s.kasus)}</td><td>${esc(s.tindak_lanjut)}</td>` +
+        `<td class="angka">${s.s || ''}</td><td class="angka">${s.i || ''}</td><td class="angka">${s.a || ''}</td><td class="angka">${s.terlambat || ''}</td>` +
+        `<td>${esc(s.catatan)}</td>`;
+      bd.appendChild(tr);
+    }
+  }
+}
+function fmtTgl() {
+  const b = ['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
+  const d = new Date();
+  return `${d.getDate()} ${b[d.getMonth()]} ${d.getFullYear()}`;
+}
+
+// ---------- guru & tugas ----------
+async function muatGuru() {
+  const u = await api('/api/admin/users'); USERS = u.users;
+  const s = await api('/api/admin/subjects'); SUBJECTS = s.subjects;
+  const c = await api('/api/admin/classes'); CLASSES = c.classes;
+  const t = await api('/api/admin/assignments');
+  bdGuru.innerHTML = USERS.map(x =>
+    `<tr><td>${esc(x.nama)}</td><td>${esc(x.username)}</td><td>${x.role}</td>
+     <td>${x.role !== 'admin'
+       ? `<button class="btn kecil abu" onclick="resetPass(${x.id},'${esc(x.nama)}')">🔑 Reset password</button>
+          <button class="btn kecil merah" onclick="hapusUser(${x.id})">Hapus</button>`
+       : '<span class="hint">—</span>'}</td></tr>`).join('');
+  bdTugas.innerHTML = t.assignments.map(x =>
+    `<tr><td>${esc(x.guru)}</td><td>${esc(x.mapel)}</td><td>${esc(x.kelas)}</td>
+     <td><button class="btn kecil merah" onclick="hapusTugas(${x.id})">Hapus</button></td></tr>`).join('');
+  const guruSaja = USERS.filter(x => x.role === 'guru');
+  tGuru.innerHTML = guruSaja.map(x => `<option value="${x.id}">${esc(x.nama)}</option>`).join('');
+  wGuru.innerHTML = `<option value="">— kosongkan —</option>` + guruSaja.map(x => `<option value="${x.id}">${esc(x.nama)}</option>`).join('');
+  tMapel.innerHTML = SUBJECTS.map(x => `<option value="${x.id}">${esc(x.kode)}${x.jurusan !== 'UMUM' ? ' (' + x.jurusan + ')' : ''}</option>`).join('');
+  tKelas.innerHTML = CLASSES.map(x => `<option value="${x.id}">${esc(x.nama)}</option>`).join('');
+  wKelas.innerHTML = CLASSES.map(x => `<option value="${x.id}">${esc(x.nama)}</option>`).join('');
+  bdWaliKelas.innerHTML = CLASSES.map(x =>
+    `<tr><td>${esc(x.nama)}</td><td>${esc(x.wali)}</td><td>${x.wali_akun ? esc(x.wali_akun) + ' (' + esc(x.wali_username) + ')' : '<span class="badge belum">belum ditautkan</span>'}</td></tr>`
+  ).join('');
+}
+async function tambahGuru() {
+  const nama = gNama.value.trim(), username = gUser.value.trim(), password = gPass.value;
+  if (!nama || !username || password.length < 6) { alert('Nama, username, dan password (min. 6 karakter) wajib diisi'); return; }
+  const j = await api('/api/admin/users', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ nama, username, password, role: 'guru' }) });
+  if (j && j.ok) { gNama.value = gUser.value = gPass.value = ''; muatGuru(); alert('Akun guru dibuat. Sampaikan username & password ke guru.'); }
+  else alert((j && j.error) || 'Gagal');
+}
+async function resetPass(id, nama) {
+  const p = prompt('Password baru untuk ' + nama + ' (min. 6 karakter):');
+  if (!p || p.length < 6) return;
+  const j = await api('/api/admin/users/' + id, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password: p }) });
+  if (j && j.ok) alert('Password diperbarui.');
+}
+async function hapusUser(id) {
+  if (!confirm('Hapus akun guru ini? Tugas mengajarnya ikut terhapus. Nilai yang sudah diisi TETAP tersimpan.')) return;
+  await api('/api/admin/users/' + id, { method: 'DELETE' });
+  muatGuru();
+}
+async function tambahTugas() {
+  const j = await api('/api/admin/assignments', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ user_id: +tGuru.value, subject_id: +tMapel.value, class_id: +tKelas.value }) });
+  if (j && j.ok) muatGuru(); else alert((j && j.error) || 'Gagal');
+}
+async function hapusTugas(id) {
+  if (!confirm('Hapus tugas ini?')) return;
+  await api('/api/admin/assignments/' + id, { method: 'DELETE' });
+  muatGuru();
+}
+async function simpanWali() {
+  // cari user_id dari nama wali? tidak — pakai pilihan akun guru; nama wali di raport tetap dari data kelas
+  const j = await api('/api/admin/wali', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ class_id: +wKelas.value, user_id: wGuru.value ? +wGuru.value : null }) });
+  if (j && j.ok) { muatGuru(); alert('Wali kelas ditautkan.'); }
+}
+
+// ---------- periode & backup ----------
+async function muatPeriode() {
+  const j = await api('/api/admin/periods');
+  bdPeriode.innerHTML = j.periods.map(p =>
+    `<tr><td>${esc(p.nama)}</td><td>${esc(p.tahun)}</td><td>${esc(p.semester)}</td>
+     <td>${p.aktif ? '<span class="badge ok">AKTIF</span>' : ''}</td>
+     <td>${p.aktif ? '' : `<button class="btn kecil" onclick="aktifkanPeriode(${p.id})">Aktifkan</button>`}</td></tr>`).join('');
+}
+async function tambahPeriode() {
+  const nama = pNama.value.trim(), tahun = pTahun.value.trim() || '2026/2027';
+  if (!nama) { alert('Nama periode wajib diisi'); return; }
+  const j = await api('/api/admin/periods', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ nama, tahun, semester: 'GANJIL', kolom: [{ key: 'absensi', label: 'Absensi', bobot: 0.1 }, { key: 'nh', label: 'NH', bobot: 0.6 }, { key: 'pts', label: 'PTS', bobot: 0.3 }] }) });
+  if (j && j.ok) { pNama.value = ''; muatPeriode(); alert('Periode ditambah. Aktifkan saat waktunya tiba.'); }
+}
+async function aktifkanPeriode(id) {
+  if (!confirm('Jadikan periode ini yang aktif? Guru akan mengisi nilai untuk periode ini.')) return;
+  await api('/api/admin/periods/' + id + '/aktifkan', { method: 'POST' });
+  muatPeriode();
+  const d = await api('/api/admin/dashboard'); DASH = d; renderProgres();
+}
+async function restore() {
+  const f = document.getElementById('fRestore').files[0];
+  if (!f) { alert('Pilih file backup dulu'); return; }
+  if (!confirm('⚠️ Pulihkan data dari backup? Data saat ini akan DIGANTI seluruhnya.')) return;
+  const teks = await f.text();
+  try {
+    const j = await api('/api/admin/restore', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: teks });
+    if (j && j.ok) alert('Data dipulihkan. Halaman akan dimuat ulang.'), location.reload();
+    else alert('Gagal: ' + ((j && j.error) || 'file tidak valid'));
+  } catch (e) { alert('Gagal membaca file'); }
+}
+
+init();
+</script>
+</body>
+</html>

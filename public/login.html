@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masuk — E-Raport SMK 11 Maret Jakarta</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login-wrap">
+  <div class="login-card">
+    <h1>📋 E-RAPORT</h1>
+    <p>SMK 11 Maret Jakarta</p>
+    <form id="f">
+      <label for="u">Username</label>
+      <input id="u" autocomplete="username" placeholder="cth: budi.santoso">
+      <label for="p">Password</label>
+      <input id="p" type="password" autocomplete="current-password" placeholder="••••••••">
+      <button class="btn" type="submit">Masuk</button>
+      <div class="err" id="err"></div>
+    </form>
+    <p class="hint">Username &amp; password diberikan oleh bagian kurikulum.</p>
+  </div>
+</div>
+<script>
+document.getElementById('f').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const err = document.getElementById('err');
+  err.textContent = '';
+  const r = await fetch('/api/login', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ username: document.getElementById('u').value, password: document.getElementById('p').value })
+  });
+  const j = await r.json();
+  if (!j.ok) { err.textContent = j.error || 'Gagal masuk'; return; }
+  location.href = j.user.role === 'admin' ? '/admin.html' : '/guru.html';
+});
+fetch('/api/me').then(r => r.json()).then(j => {
+  if (j.user) location.href = j.user.role === 'admin' ? '/admin.html' : '/guru.html';
+});
+</script>
+</body>
+</html>

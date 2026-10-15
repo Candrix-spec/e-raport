@@ -1,0 +1,6116 @@
+{
+ "classes": [
+  {
+   "nama": "X Akuntansi 1",
+   "tingkat": "X",
+   "wali": "Naafi Wulandari, S.Pd"
+  },
+  {
+   "nama": "X Manj Perkantoran 1",
+   "tingkat": "X",
+   "wali": "Dera Ismawati, S.PdI"
+  },
+  {
+   "nama": "X Manj Perkantoran 2",
+   "tingkat": "X",
+   "wali": "Sherli Ika Susanti, S.Pd"
+  },
+  {
+   "nama": "X Manj Perkantoran 3",
+   "tingkat": "X",
+   "wali": "Lis Widia, S.Pd"
+  },
+  {
+   "nama": "X Manj Perkantoran 4",
+   "tingkat": "X",
+   "wali": "Kuat Suparto, ST"
+  },
+  {
+   "nama": "X Teknik Komp Jaringan 1",
+   "tingkat": "X",
+   "wali": "Fauzi, S.Kom"
+  },
+  {
+   "nama": "X Teknik Komp Jaringan 2",
+   "tingkat": "X",
+   "wali": "Apian Candra Aditya, S.Kom"
+  },
+  {
+   "nama": "X Teknik Komp Jaringan 3",
+   "tingkat": "X",
+   "wali": "Tinandar Hermawan"
+  },
+  {
+   "nama": "X Teknik Komp Jaringan 4",
+   "tingkat": "X",
+   "wali": "Widoni Santoso, S.Pd"
+  },
+  {
+   "nama": "X Teknik Komp Jaringan 5",
+   "tingkat": "X",
+   "wali": "Dewi Periyanti, S.P"
+  },
+  {
+   "nama": "XI Akuntansi 1",
+   "tingkat": "XI",
+   "wali": "Muhammad Syachtiko, S.Pd"
+  },
+  {
+   "nama": "XI Manj Perkantoran 1",
+   "tingkat": "XI",
+   "wali": "Umida Sholikatin, S.Sos"
+  },
+  {
+   "nama": "XI Manj Perkantoran 2",
+   "tingkat": "XI",
+   "wali": "Sri Tita Mulyati"
+  },
+  {
+   "nama": "XI Manj Perkantoran 3",
+   "tingkat": "XI",
+   "wali": "Wisnu Nara Utama, S.Pd"
+  },
+  {
+   "nama": "XI Teknik Komputer Jaringan 1",
+   "tingkat": "XI",
+   "wali": "Nur Annisa, S.Kom"
+  },
+  {
+   "nama": "XI Teknik Komputer Jaringan 2",
+   "tingkat": "XI",
+   "wali": "Sofiana Nasywa, S.Pd"
+  },
+  {
+   "nama": "XI Teknik Komputer Jaringan 3",
+   "tingkat": "XI",
+   "wali": "M. Andika Prawira, S.Kom"
+  },
+  {
+   "nama": "XI Teknik Komputer Jaringan 4",
+   "tingkat": "XI",
+   "wali": "Aprilia Dwi Karina, S.Pd"
+  },
+  {
+   "nama": "XII Akuntansi 1",
+   "tingkat": "XII",
+   "wali": "Eka Herlinah, SS"
+  },
+  {
+   "nama": "XII Manaj Perkantoran 1",
+   "tingkat": "XII",
+   "wali": "Ayu Destiani Nurcahya, S.Pd"
+  },
+  {
+   "nama": "XII Manaj Perkantoran 2",
+   "tingkat": "XII",
+   "wali": "Widjayanti, S.Sos"
+  },
+  {
+   "nama": "XII Teknik Komp Jaringan 1",
+   "tingkat": "XII",
+   "wali": "Rizki Yunijar, A.Md"
+  },
+  {
+   "nama": "XII Teknik Komp Jaringan 2",
+   "tingkat": "XII",
+   "wali": "M. Imron Rosyadi, S.Ag"
+  },
+  {
+   "nama": "XII Teknik Komp Jaringan 3",
+   "tingkat": "XII",
+   "wali": "Khoiriyah, S.Ag"
+  },
+  {
+   "nama": "XII Teknik Komp Jaringan 4",
+   "tingkat": "XII",
+   "wali": "Sutiyarti, S.PdI"
+  }
+ ],
+ "students": [
+  {
+   "nis": "26.7931",
+   "nisn": "",
+   "nama": "Adelia Meidiana",
+   "kelas": "X Akuntansi 1",
+   "no": 1
+  },
+  {
+   "nis": "26.7932",
+   "nisn": "",
+   "nama": "Adhania Nabilla",
+   "kelas": "X Akuntansi 1",
+   "no": 2
+  },
+  {
+   "nis": "26.7940",
+   "nisn": "",
+   "nama": "Alfakhri Daffa Widiatama",
+   "kelas": "X Akuntansi 1",
+   "no": 3
+  },
+  {
+   "nis": "26.7943",
+   "nisn": "",
+   "nama": "Alfina Anugrah Putri",
+   "kelas": "X Akuntansi 1",
+   "no": 4
+  },
+  {
+   "nis": "26.7967",
+   "nisn": "",
+   "nama": "Assifa Nifa",
+   "kelas": "X Akuntansi 1",
+   "no": 5
+  },
+  {
+   "nis": "26.7972",
+   "nisn": "",
+   "nama": "Awaliyah Aisyah Fakhira",
+   "kelas": "X Akuntansi 1",
+   "no": 6
+  },
+  {
+   "nis": "26.7985",
+   "nisn": "",
+   "nama": "Bungsu Rahayu",
+   "kelas": "X Akuntansi 1",
+   "no": 7
+  },
+  {
+   "nis": "26.7989",
+   "nisn": "",
+   "nama": "Chintya Yohan",
+   "kelas": "X Akuntansi 1",
+   "no": 8
+  },
+  {
+   "nis": "26.8000",
+   "nisn": "",
+   "nama": "Desty Salfaredea Futri",
+   "kelas": "X Akuntansi 1",
+   "no": 9
+  },
+  {
+   "nis": "26.8011",
+   "nisn": "",
+   "nama": "Dwi Yanti",
+   "kelas": "X Akuntansi 1",
+   "no": 10
+  },
+  {
+   "nis": "26.8013",
+   "nisn": "",
+   "nama": "Early Syahrani",
+   "kelas": "X Akuntansi 1",
+   "no": 11
+  },
+  {
+   "nis": "26.8034",
+   "nisn": "",
+   "nama": "Felita Muslimah Askari",
+   "kelas": "X Akuntansi 1",
+   "no": 12
+  },
+  {
+   "nis": "26.8058",
+   "nisn": "",
+   "nama": "Indah Triliani Nurrazimah",
+   "kelas": "X Akuntansi 1",
+   "no": 13
+  },
+  {
+   "nis": "26.8071",
+   "nisn": "",
+   "nama": "Karin Dwi Putri Fellicha",
+   "kelas": "X Akuntansi 1",
+   "no": 14
+  },
+  {
+   "nis": "26.8072",
+   "nisn": "",
+   "nama": "Karisya Putri",
+   "kelas": "X Akuntansi 1",
+   "no": 15
+  },
+  {
+   "nis": "26.8080",
+   "nisn": "",
+   "nama": "Khansa Haura Risna Tsany",
+   "kelas": "X Akuntansi 1",
+   "no": 16
+  },
+  {
+   "nis": "26.8101",
+   "nisn": "",
+   "nama": "Maya Syifa Syamsiah",
+   "kelas": "X Akuntansi 1",
+   "no": 17
+  },
+  {
+   "nis": "26.8103",
+   "nisn": "",
+   "nama": "Mirra Azkia Ramadhani",
+   "kelas": "X Akuntansi 1",
+   "no": 18
+  },
+  {
+   "nis": "26.8108",
+   "nisn": "",
+   "nama": "Monica Indriani",
+   "kelas": "X Akuntansi 1",
+   "no": 19
+  },
+  {
+   "nis": "26.8111",
+   "nisn": "",
+   "nama": "Muhamad Andi Saputra",
+   "kelas": "X Akuntansi 1",
+   "no": 20
+  },
+  {
+   "nis": "26.8125",
+   "nisn": "",
+   "nama": "Muhammad Faqih Fadillah",
+   "kelas": "X Akuntansi 1",
+   "no": 21
+  },
+  {
+   "nis": "26.8144",
+   "nisn": "",
+   "nama": "Muhammad Rizki Maulana",
+   "kelas": "X Akuntansi 1",
+   "no": 22
+  },
+  {
+   "nis": "26.8155",
+   "nisn": "",
+   "nama": "Nabila Putri Anzani",
+   "kelas": "X Akuntansi 1",
+   "no": 23
+  },
+  {
+   "nis": "26.8163",
+   "nisn": "",
+   "nama": "Naurah Rayya Rahman",
+   "kelas": "X Akuntansi 1",
+   "no": 24
+  },
+  {
+   "nis": "26.8167",
+   "nisn": "",
+   "nama": "Nikesha Areta Oktaviani",
+   "kelas": "X Akuntansi 1",
+   "no": 25
+  },
+  {
+   "nis": "26.8170",
+   "nisn": "",
+   "nama": "Nur Afifah Sa'Adah",
+   "kelas": "X Akuntansi 1",
+   "no": 26
+  },
+  {
+   "nis": "26.8173",
+   "nisn": "",
+   "nama": "Nur Fitriasih Putri",
+   "kelas": "X Akuntansi 1",
+   "no": 27
+  },
+  {
+   "nis": "26.8178",
+   "nisn": "",
+   "nama": "Nursyifa Dea Arzeta",
+   "kelas": "X Akuntansi 1",
+   "no": 28
+  },
+  {
+   "nis": "26.8182",
+   "nisn": "",
+   "nama": "Pandita Karisma Iskandar",
+   "kelas": "X Akuntansi 1",
+   "no": 29
+  },
+  {
+   "nis": "26.8228",
+   "nisn": "",
+   "nama": "Salma Apriani",
+   "kelas": "X Akuntansi 1",
+   "no": 30
+  },
+  {
+   "nis": "26.8239",
+   "nisn": "",
+   "nama": "Sezha Apriliansah",
+   "kelas": "X Akuntansi 1",
+   "no": 31
+  },
+  {
+   "nis": "26.8252",
+   "nisn": "",
+   "nama": "Syakila Rahmadani",
+   "kelas": "X Akuntansi 1",
+   "no": 32
+  },
+  {
+   "nis": "26.8254",
+   "nisn": "",
+   "nama": "Syavril Salsabilla",
+   "kelas": "X Akuntansi 1",
+   "no": 33
+  },
+  {
+   "nis": "26.8257",
+   "nisn": "",
+   "nama": "Tiara Apriliawan Putri",
+   "kelas": "X Akuntansi 1",
+   "no": 34
+  },
+  {
+   "nis": "26.8269",
+   "nisn": "",
+   "nama": "Wiwin Damayanti",
+   "kelas": "X Akuntansi 1",
+   "no": 35
+  },
+  {
+   "nis": "26.8270",
+   "nisn": "",
+   "nama": "Yesimanasya Febritha Sitinjak",
+   "kelas": "X Akuntansi 1",
+   "no": 36
+  },
+  {
+   "nis": "26.8272",
+   "nisn": "",
+   "nama": "Yuni Komaria",
+   "kelas": "X Akuntansi 1",
+   "no": 37
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Akuntansi 1",
+   "no": 38
+  },
+  {
+   "nis": "26.7947",
+   "nisn": "",
+   "nama": "Allifa Nada Chaeronisha",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 1
+  },
+  {
+   "nis": "26.7949",
+   "nisn": "",
+   "nama": "Alsya Dwi Noviyanti",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 2
+  },
+  {
+   "nis": "26.7974",
+   "nisn": "",
+   "nama": "Ayu Safitri Anggraini",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 3
+  },
+  {
+   "nis": "26.7977",
+   "nisn": "",
+   "nama": "Azizah Wulandari",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 4
+  },
+  {
+   "nis": "26.7978",
+   "nisn": "",
+   "nama": "Azkia Maulida Fitria",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 5
+  },
+  {
+   "nis": "26.7991",
+   "nisn": "",
+   "nama": "Cinta Kirana",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 6
+  },
+  {
+   "nis": "26.8005",
+   "nisn": "",
+   "nama": "Dinda Jayanti Mandasari",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 7
+  },
+  {
+   "nis": "26.8024",
+   "nisn": "",
+   "nama": "Fahtunnia Namrohtul Khusna",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 8
+  },
+  {
+   "nis": "26.8030",
+   "nisn": "",
+   "nama": "Febriyani Az-Zahra",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 9
+  },
+  {
+   "nis": "26.8033",
+   "nisn": "",
+   "nama": "Felisha Sabela Priatna",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 10
+  },
+  {
+   "nis": "26.8040",
+   "nisn": "",
+   "nama": "Firzanah Salsabilah",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 11
+  },
+  {
+   "nis": "26.8062",
+   "nisn": "",
+   "nama": "Izza Syarifah Rochmah",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 12
+  },
+  {
+   "nis": "26.8068",
+   "nisn": "",
+   "nama": "Juliani Khoirunnisa Zein",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 13
+  },
+  {
+   "nis": "26.8078",
+   "nisn": "",
+   "nama": "Keza Auliya Putri",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 14
+  },
+  {
+   "nis": "26.8082",
+   "nisn": "",
+   "nama": "Khanza Alifah Putri",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 15
+  },
+  {
+   "nis": "26.8087",
+   "nisn": "",
+   "nama": "Kusmianto Rizki Putra",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 16
+  },
+  {
+   "nis": "26.8093",
+   "nisn": "",
+   "nama": "Lusi Susanti",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 17
+  },
+  {
+   "nis": "26.8098",
+   "nisn": "",
+   "nama": "Margareth Nainggolan",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 18
+  },
+  {
+   "nis": "26.8134",
+   "nisn": "",
+   "nama": "Muhammad Nidzam Fauzan",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 19
+  },
+  {
+   "nis": "26.8151",
+   "nisn": "",
+   "nama": "Muhammad Zulfikar",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 20
+  },
+  {
+   "nis": "26.8156",
+   "nisn": "",
+   "nama": "Nabilla Fitriani",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 21
+  },
+  {
+   "nis": "26.8008",
+   "nisn": "",
+   "nama": "Pita Maharani",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 22
+  },
+  {
+   "nis": "26.8189",
+   "nisn": "",
+   "nama": "Putri Mutiara",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 23
+  },
+  {
+   "nis": "26.8203",
+   "nisn": "",
+   "nama": "Raihan Husni Razzaq",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 24
+  },
+  {
+   "nis": "26.8204",
+   "nisn": "",
+   "nama": "Ramona Alexandra Devita",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 25
+  },
+  {
+   "nis": "26.8205",
+   "nisn": "",
+   "nama": "Rani Oktafiani",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 26
+  },
+  {
+   "nis": "26.8207",
+   "nisn": "",
+   "nama": "Relicia Meyka",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 27
+  },
+  {
+   "nis": "26.8208",
+   "nisn": "",
+   "nama": "Reni Ester Sihombing",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 28
+  },
+  {
+   "nis": "26.8209",
+   "nisn": "",
+   "nama": "Reni Setiani",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 29
+  },
+  {
+   "nis": "26.8224",
+   "nisn": "",
+   "nama": "Rosida",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 30
+  },
+  {
+   "nis": "26.8234",
+   "nisn": "",
+   "nama": "Sekar Natalia Nainggolan",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 31
+  },
+  {
+   "nis": "26.8240",
+   "nisn": "",
+   "nama": "Shakilla Aisyah Syawal",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 32
+  },
+  {
+   "nis": "26.8246",
+   "nisn": "",
+   "nama": "Siti Nurjanah",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 33
+  },
+  {
+   "nis": "26.8248",
+   "nisn": "",
+   "nama": "Suci Rahmandani",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 34
+  },
+  {
+   "nis": "26.8253",
+   "nisn": "",
+   "nama": "Syakilah Aisyafoni",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 35
+  },
+  {
+   "nis": "26.8261",
+   "nisn": "",
+   "nama": "Vailla Awlia Farah Islami",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 36
+  },
+  {
+   "nis": "26.8277",
+   "nisn": "",
+   "nama": "Zenipar Aulia",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 37
+  },
+  {
+   "nis": "26.8281",
+   "nisn": "",
+   "nama": "Zulfa Ramadani",
+   "kelas": "X Manj Perkantoran 1",
+   "no": 38
+  },
+  {
+   "nis": "26.7933",
+   "nisn": "",
+   "nama": "Adinda Nadhifa Irawandi",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 1
+  },
+  {
+   "nis": "26.7952",
+   "nisn": "",
+   "nama": "Ananda Rasti",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 2
+  },
+  {
+   "nis": "26.7954",
+   "nisn": "",
+   "nama": "Andini Qurrotaain",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 3
+  },
+  {
+   "nis": "26.7984",
+   "nisn": "",
+   "nama": "Bunga Herlana",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 4
+  },
+  {
+   "nis": "26.7990",
+   "nisn": "",
+   "nama": "Chyntia Rahma Dini",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 5
+  },
+  {
+   "nis": "26.7998",
+   "nisn": "",
+   "nama": "Deffi Kezia Putri",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 6
+  },
+  {
+   "nis": "26.8021",
+   "nisn": "",
+   "nama": "Fahira Nursyafitri",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 7
+  },
+  {
+   "nis": "26.8043",
+   "nisn": "",
+   "nama": "Gabrielle Julie Arianti",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 8
+  },
+  {
+   "nis": "26.8052",
+   "nisn": "",
+   "nama": "Hesti Nur Aila Putri",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 9
+  },
+  {
+   "nis": "26.8053",
+   "nisn": "",
+   "nama": "Heti Ningrum Oktaviani",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 10
+  },
+  {
+   "nis": "26.8076",
+   "nisn": "",
+   "nama": "Keysalintang Aridya Marsha",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 11
+  },
+  {
+   "nis": "26.8081",
+   "nisn": "",
+   "nama": "Khansa Naila Kholidina",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 12
+  },
+  {
+   "nis": "26.8089",
+   "nisn": "",
+   "nama": "Lenny Nur Azizah",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 13
+  },
+  {
+   "nis": "26.8090",
+   "nisn": "",
+   "nama": "Lia Ramadhani",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 14
+  },
+  {
+   "nis": "26.8099",
+   "nisn": "",
+   "nama": "Marsela Nurul Istiqomah",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 15
+  },
+  {
+   "nis": "26.8157",
+   "nisn": "",
+   "nama": "Nadiyya Farhana",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 16
+  },
+  {
+   "nis": "26.8160",
+   "nisn": "",
+   "nama": "Natasya Febriyanti",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 17
+  },
+  {
+   "nis": "26.8165",
+   "nisn": "",
+   "nama": "Neila Rizkia Karunia Putri",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 18
+  },
+  {
+   "nis": "26.8168",
+   "nisn": "",
+   "nama": "Nina Kanaya Amin Putri",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 19
+  },
+  {
+   "nis": "26.8175",
+   "nisn": "",
+   "nama": "Nur Hafni Ramadhani",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 20
+  },
+  {
+   "nis": "26.8193",
+   "nisn": "",
+   "nama": "Rafaela Ananda",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 21
+  },
+  {
+   "nis": "26.8214",
+   "nisn": "",
+   "nama": "Rihlatul Jannah",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 22
+  },
+  {
+   "nis": "26.8227",
+   "nisn": "",
+   "nama": "Sahvira Lizza Rahmadana",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 23
+  },
+  {
+   "nis": "26.8243",
+   "nisn": "",
+   "nama": "Shellviana Rizqi Fauziah",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 24
+  },
+  {
+   "nis": "26.8247",
+   "nisn": "",
+   "nama": "Siti Sahpriyanti",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 25
+  },
+  {
+   "nis": "26.8251",
+   "nisn": "",
+   "nama": "Syakila Keysa Nur Arsy",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 26
+  },
+  {
+   "nis": "26.8258",
+   "nisn": "",
+   "nama": "Tiara Nur Rahma",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 27
+  },
+  {
+   "nis": "26.8259",
+   "nisn": "",
+   "nama": "Tsabitah Nur Fadhilah",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 28
+  },
+  {
+   "nis": "26.8275",
+   "nisn": "",
+   "nama": "Zaskia Athalia Zimraan",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 29
+  },
+  {
+   "nis": "26.8279",
+   "nisn": "",
+   "nama": "Zilfana Rahmatia",
+   "kelas": "X Manj Perkantoran 2",
+   "no": 30
+  },
+  {
+   "nis": "26.7953",
+   "nisn": "",
+   "nama": "Anandita Arahman",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 1
+  },
+  {
+   "nis": "26.7955",
+   "nisn": "",
+   "nama": "Angel Kirana Amelia",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 2
+  },
+  {
+   "nis": "26.7958",
+   "nisn": "",
+   "nama": "Anisa Febrianti",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 3
+  },
+  {
+   "nis": "26.7959",
+   "nisn": "",
+   "nama": "Anisah Juni Lestari",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 4
+  },
+  {
+   "nis": "26.7973",
+   "nisn": "",
+   "nama": "Ayu Lintang Dewanti",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 5
+  },
+  {
+   "nis": "26.7979",
+   "nisn": "",
+   "nama": "Azzahra Kania Putri",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 6
+  },
+  {
+   "nis": "26.7986",
+   "nisn": "",
+   "nama": "Cheril Zhaqira Jasmine",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 7
+  },
+  {
+   "nis": "26.8032",
+   "nisn": "",
+   "nama": "Febyana Chesya Putri Marwiyah",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 8
+  },
+  {
+   "nis": "26.8055",
+   "nisn": "",
+   "nama": "Humaira Putriansyah",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 9
+  },
+  {
+   "nis": "26.8056",
+   "nisn": "",
+   "nama": "Humairotu Alwarodah",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 10
+  },
+  {
+   "nis": "26.8063",
+   "nisn": "",
+   "nama": "Jahira Putri",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 11
+  },
+  {
+   "nis": "26.8064",
+   "nisn": "",
+   "nama": "Jihan Sabrinah",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 12
+  },
+  {
+   "nis": "26.8065",
+   "nisn": "",
+   "nama": "Jilan Aqilah",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 13
+  },
+  {
+   "nis": "26.8079",
+   "nisn": "",
+   "nama": "Khalisa Nazifa Putri",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 14
+  },
+  {
+   "nis": "26.8083",
+   "nisn": "",
+   "nama": "Kharisya Putri Oktaviani",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 15
+  },
+  {
+   "nis": "26.8084",
+   "nisn": "",
+   "nama": "Kirana Khusnul Khatimah",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 16
+  },
+  {
+   "nis": "26.8092",
+   "nisn": "",
+   "nama": "Lintang Zahira Nirwani",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 17
+  },
+  {
+   "nis": "26.8174",
+   "nisn": "",
+   "nama": "Nur Fitriayaningsih",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 18
+  },
+  {
+   "nis": "26.8176",
+   "nisn": "",
+   "nama": "Nur Rachma Julianty",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 19
+  },
+  {
+   "nis": "26.8199",
+   "nisn": "",
+   "nama": "Rahma Dewi Sanita",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 20
+  },
+  {
+   "nis": "26.8217",
+   "nisn": "",
+   "nama": "Ristha Andani",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 21
+  },
+  {
+   "nis": "26.8218",
+   "nisn": "",
+   "nama": "Ristia Nur Hanifah",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 22
+  },
+  {
+   "nis": "26.8225",
+   "nisn": "",
+   "nama": "Saahirah Putri Hidayat",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 23
+  },
+  {
+   "nis": "26.8232",
+   "nisn": "",
+   "nama": "Savina Fadilah",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 24
+  },
+  {
+   "nis": "26.8241",
+   "nisn": "",
+   "nama": "Shamita Ruzqiya Susanto",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 25
+  },
+  {
+   "nis": "26.8244",
+   "nisn": "",
+   "nama": "Shinta Putri",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 26
+  },
+  {
+   "nis": "26.8245",
+   "nisn": "",
+   "nama": "Siti Maryam Azzahra",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 27
+  },
+  {
+   "nis": "26.8255",
+   "nisn": "",
+   "nama": "Syifa Denasa Khoirunisa",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 28
+  },
+  {
+   "nis": "26.8274",
+   "nisn": "",
+   "nama": "Zahira Novia Putri",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 29
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 30
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 31
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Manj Perkantoran 3",
+   "no": 33
+  },
+  {
+   "nis": "26.7945",
+   "nisn": "",
+   "nama": "Alifia Nazhali Kisti",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 1
+  },
+  {
+   "nis": "26.7951",
+   "nisn": "",
+   "nama": "Alya Usnul Khotimah",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 2
+  },
+  {
+   "nis": "26.7962",
+   "nisn": "",
+   "nama": "Aprillia",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 3
+  },
+  {
+   "nis": "26.7970",
+   "nisn": "",
+   "nama": "Aura Monycca",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 4
+  },
+  {
+   "nis": "26.8004",
+   "nisn": "",
+   "nama": "Dinda Al Dan Dev",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 5
+  },
+  {
+   "nis": "26.8007",
+   "nisn": "",
+   "nama": "Dira Adelia",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 6
+  },
+  {
+   "nis": "26.8010",
+   "nisn": "",
+   "nama": "Dwi Puspita Sari",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 7
+  },
+  {
+   "nis": "26.8012",
+   "nisn": "",
+   "nama": "Dyah Ayu Muditha",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 8
+  },
+  {
+   "nis": "26.8016",
+   "nisn": "",
+   "nama": "Eva Afriyani",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 9
+  },
+  {
+   "nis": "26.8039",
+   "nisn": "",
+   "nama": "Firsyah Sakinah",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 10
+  },
+  {
+   "nis": "26.8057",
+   "nisn": "",
+   "nama": "Huriaini Hana Indriani",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 11
+  },
+  {
+   "nis": "26.8066",
+   "nisn": "",
+   "nama": "Jingga Kirana",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 12
+  },
+  {
+   "nis": "26.8077",
+   "nisn": "",
+   "nama": "Keysha Zhifara Khirany Putri",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 13
+  },
+  {
+   "nis": "26.8088",
+   "nisn": "",
+   "nama": "Laras Cantika Gresia Marpaung",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 14
+  },
+  {
+   "nis": "26.8158",
+   "nisn": "",
+   "nama": "Najwa Hermawati",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 15
+  },
+  {
+   "nis": "26.8159",
+   "nisn": "",
+   "nama": "Natasya Aulia",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 16
+  },
+  {
+   "nis": "26.8161",
+   "nisn": "",
+   "nama": "Naufal Affandi",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 17
+  },
+  {
+   "nis": "26.8164",
+   "nisn": "",
+   "nama": "Nazwa Tri Aurelia",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 18
+  },
+  {
+   "nis": "26.8166",
+   "nisn": "",
+   "nama": "Nenden Revi Oktaviani",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 19
+  },
+  {
+   "nis": "26.8171",
+   "nisn": "",
+   "nama": "Nur Aini",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 20
+  },
+  {
+   "nis": "26.8188",
+   "nisn": "",
+   "nama": "Putri Isnaeni Satyadianto",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 21
+  },
+  {
+   "nis": "26.8211",
+   "nisn": "",
+   "nama": "Revina Astari",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 22
+  },
+  {
+   "nis": "26.8226",
+   "nisn": "",
+   "nama": "Sabrina Nadillah",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 23
+  },
+  {
+   "nis": "26.8235",
+   "nisn": "",
+   "nama": "Selia Noverlia",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 24
+  },
+  {
+   "nis": "26.8256",
+   "nisn": "",
+   "nama": "Talitha Rahma Najmi",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 25
+  },
+  {
+   "nis": "26.8266",
+   "nisn": "",
+   "nama": "Wanda Zanuba Poncila P",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 26
+  },
+  {
+   "nis": "26.8267",
+   "nisn": "",
+   "nama": "Wiranti Natalia Saputri",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 27
+  },
+  {
+   "nis": "26.8273",
+   "nisn": "",
+   "nama": "Yuniarti Ningsih",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 28
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 29
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 30
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 31
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Manj Perkantoran 4",
+   "no": 33
+  },
+  {
+   "nis": "26.7938",
+   "nisn": "",
+   "nama": "Ahmad Zidni Nuro",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 1
+  },
+  {
+   "nis": "26.7960",
+   "nisn": "",
+   "nama": "Anissa Putri",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 2
+  },
+  {
+   "nis": "26.7966",
+   "nisn": "",
+   "nama": "Arkan Farid Adiguna",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 3
+  },
+  {
+   "nis": "26.7987",
+   "nisn": "",
+   "nama": "Cheryl Alfinanda Diera",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 4
+  },
+  {
+   "nis": "26.8001",
+   "nisn": "",
+   "nama": "Diego Fernando Saputra",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 5
+  },
+  {
+   "nis": "26.8002",
+   "nisn": "",
+   "nama": "Dimas Adittya",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 6
+  },
+  {
+   "nis": "26.8009",
+   "nisn": "",
+   "nama": "Dwi Ana Artikah Putri",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 7
+  },
+  {
+   "nis": "26.8025",
+   "nisn": "",
+   "nama": "Faiz Ubaidillah",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 8
+  },
+  {
+   "nis": "26.8026",
+   "nisn": "",
+   "nama": "Fani Nabila",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 9
+  },
+  {
+   "nis": "26.8029",
+   "nisn": "",
+   "nama": "Fatir Rafizi Hisam",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 10
+  },
+  {
+   "nis": "26.8031",
+   "nisn": "",
+   "nama": "Febtomi Pratama Wijaya",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 11
+  },
+  {
+   "nis": "25.7738",
+   "nisn": "",
+   "nama": "Galih Erlangga",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 12
+  },
+  {
+   "nis": "26.8045",
+   "nisn": "",
+   "nama": "Ghazy Ratu Ghaliby",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 13
+  },
+  {
+   "nis": "26.8046",
+   "nisn": "",
+   "nama": "Gilang Ramadan",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 14
+  },
+  {
+   "nis": "26.8049",
+   "nisn": "",
+   "nama": "Haikal Asyabilah",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 15
+  },
+  {
+   "nis": "26.8060",
+   "nisn": "",
+   "nama": "Irene Martinez Tumijo",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 16
+  },
+  {
+   "nis": "26.8070",
+   "nisn": "",
+   "nama": "Kaizar Nandana Bhasunjaya",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 17
+  },
+  {
+   "nis": "26.8073",
+   "nisn": "",
+   "nama": "Kaylla Hardianty",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 18
+  },
+  {
+   "nis": "26.8085",
+   "nisn": "",
+   "nama": "Kurniati",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 19
+  },
+  {
+   "nis": "26.8086",
+   "nisn": "",
+   "nama": "Kurniawan",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 20
+  },
+  {
+   "nis": "26.8114",
+   "nisn": "",
+   "nama": "Muhamad Farid",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 21
+  },
+  {
+   "nis": "26.8115",
+   "nisn": "",
+   "nama": "Muhamad Ilham",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 22
+  },
+  {
+   "nis": "26.8118",
+   "nisn": "",
+   "nama": "Muhammad Akbar Thomas",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 23
+  },
+  {
+   "nis": "26.8120",
+   "nisn": "",
+   "nama": "Muhammad Ariansyah Putra",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 24
+  },
+  {
+   "nis": "26.8128",
+   "nisn": "",
+   "nama": "Muhammad Feby Saputra",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 25
+  },
+  {
+   "nis": "26.8143",
+   "nisn": "",
+   "nama": "Muhammad Rivan Maulana",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 26
+  },
+  {
+   "nis": "26.8169",
+   "nisn": "",
+   "nama": "Nizar Kusumahadi",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 27
+  },
+  {
+   "nis": "26.8179",
+   "nisn": "",
+   "nama": "Octa Malvin Alfiansyah",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 28
+  },
+  {
+   "nis": "26.8183",
+   "nisn": "",
+   "nama": "Panji Candra Kirana",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 29
+  },
+  {
+   "nis": "26.8192",
+   "nisn": "",
+   "nama": "Rafa Senja Putra",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 30
+  },
+  {
+   "nis": "26.8215",
+   "nisn": "",
+   "nama": "Rio Adni Fahriza",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 31
+  },
+  {
+   "nis": "26.8223",
+   "nisn": "",
+   "nama": "Rizqi Maulana Ibrahim",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 32
+  },
+  {
+   "nis": "26.8233",
+   "nisn": "",
+   "nama": "Sayyidina Ali",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 33
+  },
+  {
+   "nis": "26.8236",
+   "nisn": "",
+   "nama": "Sendi Li",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 34
+  },
+  {
+   "nis": "26.8242",
+   "nisn": "",
+   "nama": "Shaula Farrel Akbar Rossy",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 35
+  },
+  {
+   "nis": "26.8260",
+   "nisn": "",
+   "nama": "Ulfa Puspita Sari",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 36
+  },
+  {
+   "nis": "26.8268",
+   "nisn": "",
+   "nama": "Wisnu Pradita",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 37
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Teknik Komp Jaringan 1",
+   "no": 38
+  },
+  {
+   "nis": "26.7928",
+   "nisn": "",
+   "nama": "Abdil Mubarok Irawan",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 1
+  },
+  {
+   "nis": "26.7941",
+   "nisn": "",
+   "nama": "Alfi Alhafizh",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 2
+  },
+  {
+   "nis": "26.7942",
+   "nisn": "",
+   "nama": "Alfin Rama Dani",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 3
+  },
+  {
+   "nis": "26.7944",
+   "nisn": "",
+   "nama": "Alief Akmal Zakaria",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 4
+  },
+  {
+   "nis": "26.7957",
+   "nisn": "",
+   "nama": "Angga Dwi Putra",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 5
+  },
+  {
+   "nis": "26.7961",
+   "nisn": "",
+   "nama": "Apriliyani",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 6
+  },
+  {
+   "nis": "26.7964",
+   "nisn": "",
+   "nama": "Arista Janna Jayanti",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 7
+  },
+  {
+   "nis": "26.7971",
+   "nisn": "",
+   "nama": "Aurellia Mawar Rahmawati",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 8
+  },
+  {
+   "nis": "26.7982",
+   "nisn": "",
+   "nama": "Bima Dwi Septiancesar",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 9
+  },
+  {
+   "nis": "26.7993",
+   "nisn": "",
+   "nama": "Daffa Athaya Bintang Pratama",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 10
+  },
+  {
+   "nis": "26.8003",
+   "nisn": "",
+   "nama": "Dimas Ardiansyah",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 11
+  },
+  {
+   "nis": "26.8015",
+   "nisn": "",
+   "nama": "Erin Alna Maghribi",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 12
+  },
+  {
+   "nis": "26.8019",
+   "nisn": "",
+   "nama": "Fadhil Reyhan Reswara",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 13
+  },
+  {
+   "nis": "26.8020",
+   "nisn": "",
+   "nama": "Fadli Nurrahman",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 14
+  },
+  {
+   "nis": "26.8022",
+   "nisn": "",
+   "nama": "Fahmi Adi Putra",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 15
+  },
+  {
+   "nis": "26.8023",
+   "nisn": "",
+   "nama": "Fahri Ardiansyah",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 16
+  },
+  {
+   "nis": "26.8027",
+   "nisn": "",
+   "nama": "Farhan Fadilah",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 17
+  },
+  {
+   "nis": "26.8028",
+   "nisn": "",
+   "nama": "Farres Asyam Aliyy Sauri",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 18
+  },
+  {
+   "nis": "26.8036",
+   "nisn": "",
+   "nama": "Ficky Alfiansyah",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 19
+  },
+  {
+   "nis": "26.8042",
+   "nisn": "",
+   "nama": "Gabriel Mesa Parhorasan Siahaan",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 20
+  },
+  {
+   "nis": "26.8044",
+   "nisn": "",
+   "nama": "Galang Nugraha",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 21
+  },
+  {
+   "nis": "26.8075",
+   "nisn": "",
+   "nama": "Kevin Akbar",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 22
+  },
+  {
+   "nis": "26.8100",
+   "nisn": "",
+   "nama": "Maya Apriliyanti",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 23
+  },
+  {
+   "nis": "26.8102",
+   "nisn": "",
+   "nama": "Meysia Rziky Insani Manurung",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 24
+  },
+  {
+   "nis": "26.8110",
+   "nisn": "",
+   "nama": "Muhamad Alvi Lesmana",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 25
+  },
+  {
+   "nis": "26.8117",
+   "nisn": "",
+   "nama": "Muhamad Rizki Fauzi",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 26
+  },
+  {
+   "nis": "26.8122",
+   "nisn": "",
+   "nama": "Muhammad Azian Aprilio",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 27
+  },
+  {
+   "nis": "26.8126",
+   "nisn": "",
+   "nama": "Muhammad Fathan Al Muttaqin",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 28
+  },
+  {
+   "nis": "26.8142",
+   "nisn": "",
+   "nama": "Muhammad Rifqi Aljabar",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 29
+  },
+  {
+   "nis": "26.8149",
+   "nisn": "",
+   "nama": "Muhammad Yusuf Fajri",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 30
+  },
+  {
+   "nis": "26.8104",
+   "nisn": "",
+   "nama": "Nofwika Ayu Lestari",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 31
+  },
+  {
+   "nis": "26.8180",
+   "nisn": "",
+   "nama": "Octaviani Sari Fatonah",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 32
+  },
+  {
+   "nis": "26.8184",
+   "nisn": "",
+   "nama": "Panji Hardiansyah",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 33
+  },
+  {
+   "nis": "26.8196",
+   "nisn": "",
+   "nama": "Rafly Syachreza",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 34
+  },
+  {
+   "nis": "26.8212",
+   "nisn": "",
+   "nama": "Reza",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 35
+  },
+  {
+   "nis": "26.8216",
+   "nisn": "",
+   "nama": "Rio Pratama Setiawan",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 36
+  },
+  {
+   "nis": "26.8265",
+   "nisn": "",
+   "nama": "Wahyu Tri Prasetya",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 37
+  },
+  {
+   "nis": "26.8278",
+   "nisn": "",
+   "nama": "Zidan Firman Sri Setiawan",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 38
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 39
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "X Teknik Komp Jaringan 2",
+   "no": 40
+  },
+  {
+   "nis": "26.7929",
+   "nisn": "",
+   "nama": "Abdur Rahman",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 1
+  },
+  {
+   "nis": "26.7948",
+   "nisn": "",
+   "nama": "Almira",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 2
+  },
+  {
+   "nis": "26.7963",
+   "nisn": "",
+   "nama": "Ardy Sefasaputra",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 3
+  },
+  {
+   "nis": "26.7969",
+   "nisn": "",
+   "nama": "Athaya Jerolin Nathan",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 4
+  },
+  {
+   "nis": "26.7976",
+   "nisn": "",
+   "nama": "Azizah Ameliya",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 5
+  },
+  {
+   "nis": "26.7981",
+   "nisn": "",
+   "nama": "Bayu Ramadhan",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 6
+  },
+  {
+   "nis": "26.7995",
+   "nisn": "",
+   "nama": "Dani Hidayaturrohman",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 7
+  },
+  {
+   "nis": "26.8014",
+   "nisn": "",
+   "nama": "Eduandri Yosua Napitupulu",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 8
+  },
+  {
+   "nis": "26.8017",
+   "nisn": "",
+   "nama": "Fabian Desta Armasyah",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 9
+  },
+  {
+   "nis": "26.8067",
+   "nisn": "",
+   "nama": "Johansyah Putra",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 10
+  },
+  {
+   "nis": "26.8069",
+   "nisn": "",
+   "nama": "Juniansyah Rizqi Saputra",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 11
+  },
+  {
+   "nis": "26.8094",
+   "nisn": "",
+   "nama": "Lutfiya Ulfah",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 12
+  },
+  {
+   "nis": "26.8096",
+   "nisn": "",
+   "nama": "Mahardika Dala Firmansyah",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 13
+  },
+  {
+   "nis": "26.8105",
+   "nisn": "",
+   "nama": "Moh Ikram Alkafi",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 14
+  },
+  {
+   "nis": "26.8116",
+   "nisn": "",
+   "nama": "Muhamad Irwan",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 15
+  },
+  {
+   "nis": "26.8119",
+   "nisn": "",
+   "nama": "Muhammad Andra Farezi",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 16
+  },
+  {
+   "nis": "26.8123",
+   "nisn": "",
+   "nama": "Muhammad Fadillah Irawan",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 17
+  },
+  {
+   "nis": "26.8124",
+   "nisn": "",
+   "nama": "Muhammad Fais",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 18
+  },
+  {
+   "nis": "26.8127",
+   "nisn": "",
+   "nama": "Muhammad Fattan",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 19
+  },
+  {
+   "nis": "26.8130",
+   "nisn": "",
+   "nama": "Muhammad Hafidz Al Akbar",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 20
+  },
+  {
+   "nis": "26.8133",
+   "nisn": "",
+   "nama": "Muhammad Maulana Mansyur",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 21
+  },
+  {
+   "nis": "26.8139",
+   "nisn": "",
+   "nama": "Muhammad Rafka Hardino",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 22
+  },
+  {
+   "nis": "26.8140",
+   "nisn": "",
+   "nama": "Muhammad Rafkah Mubarok",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 23
+  },
+  {
+   "nis": "26.8141",
+   "nisn": "",
+   "nama": "Muhammad Restu Aryansyah",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 24
+  },
+  {
+   "nis": "26.8145",
+   "nisn": "",
+   "nama": "Muhammad Rizky Al Habsy",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 25
+  },
+  {
+   "nis": "26.8148",
+   "nisn": "",
+   "nama": "Muhammad Taufik",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 26
+  },
+  {
+   "nis": "26.8181",
+   "nisn": "",
+   "nama": "Oktavian Agni Pratama",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 27
+  },
+  {
+   "nis": "26.8187",
+   "nisn": "",
+   "nama": "Putra Nidan Setiawan",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 28
+  },
+  {
+   "nis": "26.8201",
+   "nisn": "",
+   "nama": "Rahmatul Khairul Azam",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 29
+  },
+  {
+   "nis": "26.8202",
+   "nisn": "",
+   "nama": "Rahul Aditya Putra Prianggoro",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 30
+  },
+  {
+   "nis": "26.8210",
+   "nisn": "",
+   "nama": "Renisya Cahyani",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 31
+  },
+  {
+   "nis": "26.8230",
+   "nisn": "",
+   "nama": "Sandy Tri Trayda Anwar",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 32
+  },
+  {
+   "nis": "26.8238",
+   "nisn": "",
+   "nama": "Serly Marselina",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 33
+  },
+  {
+   "nis": "26.8280",
+   "nisn": "",
+   "nama": "Ziyad Mursadad",
+   "kelas": "X Teknik Komp Jaringan 3",
+   "no": 34
+  },
+  {
+   "nis": "26.7930",
+   "nisn": "",
+   "nama": "Abi Gail Satria Pratama",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 1
+  },
+  {
+   "nis": "26.7935",
+   "nisn": "",
+   "nama": "Aditya Hariyanto",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 2
+  },
+  {
+   "nis": "26.7939",
+   "nisn": "",
+   "nama": "Ajun Junir Syahputra",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 3
+  },
+  {
+   "nis": "26.7965",
+   "nisn": "",
+   "nama": "Arizkya Salma Octaviantin",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 4
+  },
+  {
+   "nis": "26.7968",
+   "nisn": "",
+   "nama": "Asyraf",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 5
+  },
+  {
+   "nis": "26.7988",
+   "nisn": "",
+   "nama": "Chila Andi Ramadhani",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 6
+  },
+  {
+   "nis": "26.7992",
+   "nisn": "",
+   "nama": "Dafa Reihan",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 7
+  },
+  {
+   "nis": "26.7994",
+   "nisn": "",
+   "nama": "Danar Saputra",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 8
+  },
+  {
+   "nis": "26.7997",
+   "nisn": "",
+   "nama": "Darrel Andriano Gonzales",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 9
+  },
+  {
+   "nis": "26.7999",
+   "nisn": "",
+   "nama": "Deni Irawan",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 10
+  },
+  {
+   "nis": "26.8006",
+   "nisn": "",
+   "nama": "Dini Alifiah",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 11
+  },
+  {
+   "nis": "26.8035",
+   "nisn": "",
+   "nama": "Ferliansyah Ramadhan",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 12
+  },
+  {
+   "nis": "26.8095",
+   "nisn": "",
+   "nama": "M. Rafa Aula Arfiandsyah",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 13
+  },
+  {
+   "nis": "26.8282",
+   "nisn": "",
+   "nama": "Moh. Abas Faiz",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 14
+  },
+  {
+   "nis": "26.8107",
+   "nisn": "",
+   "nama": "Mohammad Rafid Atallah",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 15
+  },
+  {
+   "nis": "26.8109",
+   "nisn": "",
+   "nama": "Muhamad  Dhabid Hanafi",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 16
+  },
+  {
+   "nis": "26.8131",
+   "nisn": "",
+   "nama": "Muhammad Haikal",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 17
+  },
+  {
+   "nis": "26.8132",
+   "nisn": "",
+   "nama": "Muhammad Irpan Ramadan",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 18
+  },
+  {
+   "nis": "26.8135",
+   "nisn": "",
+   "nama": "Muhammad Nizam Maulana",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 19
+  },
+  {
+   "nis": "26.8137",
+   "nisn": "",
+   "nama": "Muhammad Nur Subhi Mubarok",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 20
+  },
+  {
+   "nis": "26.8138",
+   "nisn": "",
+   "nama": "Muhammad Rafa Fadila",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 21
+  },
+  {
+   "nis": "26.8150",
+   "nisn": "",
+   "nama": "Muhammad Ziyad Syarif",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 22
+  },
+  {
+   "nis": "26.8153",
+   "nisn": "",
+   "nama": "Mukhamad Abdurachman",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 23
+  },
+  {
+   "nis": "26.8177",
+   "nisn": "",
+   "nama": "Nur Shaid",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 24
+  },
+  {
+   "nis": "26.8185",
+   "nisn": "",
+   "nama": "Parningotan Agustinus",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 25
+  },
+  {
+   "nis": "26.8190",
+   "nisn": "",
+   "nama": "Rafa Juliansyah",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 26
+  },
+  {
+   "nis": "26.8191",
+   "nisn": "",
+   "nama": "Rafa Ridho Aldiansyah",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 27
+  },
+  {
+   "nis": "26.8194",
+   "nisn": "",
+   "nama": "Rafha Helmi Yasdi Yusuf",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 28
+  },
+  {
+   "nis": "26.8195",
+   "nisn": "",
+   "nama": "Rafly Saputra",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 29
+  },
+  {
+   "nis": "26.8200",
+   "nisn": "",
+   "nama": "Rahmat Ripaih",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 30
+  },
+  {
+   "nis": "26.8206",
+   "nisn": "",
+   "nama": "Rava Ardiansyah",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 31
+  },
+  {
+   "nis": "26.8219",
+   "nisn": "",
+   "nama": "Rivki Haryono",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 32
+  },
+  {
+   "nis": "26.8220",
+   "nisn": "",
+   "nama": "Rizki Baharudin Anwar",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 33
+  },
+  {
+   "nis": "26.8221",
+   "nisn": "",
+   "nama": "Rizoma Krisandi",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 34
+  },
+  {
+   "nis": "26.8250",
+   "nisn": "",
+   "nama": "Syahril Maulana Saputra",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 35
+  },
+  {
+   "nis": "26.8271",
+   "nisn": "",
+   "nama": "Yovan Adila Eryanto",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 36
+  },
+  {
+   "nis": "26.8276",
+   "nisn": "",
+   "nama": "Zema Ibnu Rudlan",
+   "kelas": "X Teknik Komp Jaringan 4",
+   "no": 37
+  },
+  {
+   "nis": "26.7934",
+   "nisn": "",
+   "nama": "Adit Januar",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 1
+  },
+  {
+   "nis": "26.7936",
+   "nisn": "",
+   "nama": "Agus Ramah Dani",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 2
+  },
+  {
+   "nis": "26.7946",
+   "nisn": "",
+   "nama": "Aliudin",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 3
+  },
+  {
+   "nis": "26.7950",
+   "nisn": "",
+   "nama": "Alvino Cheasaryo",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 4
+  },
+  {
+   "nis": "26.7975",
+   "nisn": "",
+   "nama": "Azilia Rahmadani",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 5
+  },
+  {
+   "nis": "26.7980",
+   "nisn": "",
+   "nama": "Bagas Dwi Arianto",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 6
+  },
+  {
+   "nis": "26.7983",
+   "nisn": "",
+   "nama": "Bintang Ilham Ramadhan",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 7
+  },
+  {
+   "nis": "26.7996",
+   "nisn": "",
+   "nama": "Dani Setiawan",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 8
+  },
+  {
+   "nis": "26.8018",
+   "nisn": "",
+   "nama": "Fadhil Al - Khatiri",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 9
+  },
+  {
+   "nis": "26.8037",
+   "nisn": "",
+   "nama": "Fikri Maulana",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 10
+  },
+  {
+   "nis": "26.8047",
+   "nisn": "",
+   "nama": "Gilang Ramadan",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 11
+  },
+  {
+   "nis": "26.8048",
+   "nisn": "",
+   "nama": "Gresya Fitri Siburian",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 12
+  },
+  {
+   "nis": "26.8050",
+   "nisn": "",
+   "nama": "Heri Krisna",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 13
+  },
+  {
+   "nis": "26.8051",
+   "nisn": "",
+   "nama": "Hesti Candra Oktaviani",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 14
+  },
+  {
+   "nis": "26.8091",
+   "nisn": "",
+   "nama": "Lintang Nur Azam",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 15
+  },
+  {
+   "nis": "26.8097",
+   "nisn": "",
+   "nama": "Maliq Alba",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 16
+  },
+  {
+   "nis": "26.8106",
+   "nisn": "",
+   "nama": "Mohammad Fajri Kaerudin",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 17
+  },
+  {
+   "nis": "26.8112",
+   "nisn": "",
+   "nama": "Muhamad Faisal Akbar",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 18
+  },
+  {
+   "nis": "26.8113",
+   "nisn": "",
+   "nama": "Muhamad Farel",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 19
+  },
+  {
+   "nis": "26.8121",
+   "nisn": "",
+   "nama": "Muhammad Ariyansah",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 20
+  },
+  {
+   "nis": "26.8129",
+   "nisn": "",
+   "nama": "Muhammad Hadzami",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 21
+  },
+  {
+   "nis": "26.8136",
+   "nisn": "",
+   "nama": "Muhammad Noval Azhar",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 22
+  },
+  {
+   "nis": "26.8146",
+   "nisn": "",
+   "nama": "Muhammad Rujeil Tillah",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 23
+  },
+  {
+   "nis": "26.8147",
+   "nisn": "",
+   "nama": "Muhammad Sulthonul Aulia Putra",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 24
+  },
+  {
+   "nis": "26.8152",
+   "nisn": "",
+   "nama": "Muhhamad Rava",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 25
+  },
+  {
+   "nis": "26.8154",
+   "nisn": "",
+   "nama": "Muthia Silvi Efendi",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 26
+  },
+  {
+   "nis": "26.8162",
+   "nisn": "",
+   "nama": "Naufal Azhari",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 27
+  },
+  {
+   "nis": "26.8172",
+   "nisn": "",
+   "nama": "Nur Aisyah Alamanda",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 28
+  },
+  {
+   "nis": "26.8186",
+   "nisn": "",
+   "nama": "Putra Dwi Fahreza",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 29
+  },
+  {
+   "nis": "26.8198",
+   "nisn": "",
+   "nama": "Rahardyan Dwy Putra Efendy",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 30
+  },
+  {
+   "nis": "26.8213",
+   "nisn": "",
+   "nama": "Rezky Aditya Darmasyah",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 31
+  },
+  {
+   "nis": "26.8222",
+   "nisn": "",
+   "nama": "Rizqa Aprilia Ningsih",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 32
+  },
+  {
+   "nis": "26.8229",
+   "nisn": "",
+   "nama": "Salsa Putri Aulia",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 33
+  },
+  {
+   "nis": "26.8231",
+   "nisn": "",
+   "nama": "Saputra Briliant",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 34
+  },
+  {
+   "nis": "26.8249",
+   "nisn": "",
+   "nama": "Sultan Labib Sagiwa",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 35
+  },
+  {
+   "nis": "26.8263",
+   "nisn": "",
+   "nama": "Wahyu Jeriko",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 36
+  },
+  {
+   "nis": "26.8264",
+   "nisn": "",
+   "nama": "Wahyu Prana Sukarno",
+   "kelas": "X Teknik Komp Jaringan 5",
+   "no": 37
+  },
+  {
+   "nis": "25.7660",
+   "nisn": "0081201744",
+   "nama": "Aditya Yohan",
+   "kelas": "XI Akuntansi 1",
+   "no": 1
+  },
+  {
+   "nis": "25.7662",
+   "nisn": "0109233749",
+   "nama": "Adya Syafrina",
+   "kelas": "XI Akuntansi 1",
+   "no": 2
+  },
+  {
+   "nis": "25.7666",
+   "nisn": "3092863545",
+   "nama": "Agustina Rahmadhani",
+   "kelas": "XI Akuntansi 1",
+   "no": 3
+  },
+  {
+   "nis": "25.7689",
+   "nisn": "3104092983",
+   "nama": "Azahra",
+   "kelas": "XI Akuntansi 1",
+   "no": 4
+  },
+  {
+   "nis": "25.7693",
+   "nisn": "0098353918",
+   "nama": "Bahrul Ulum",
+   "kelas": "XI Akuntansi 1",
+   "no": 5
+  },
+  {
+   "nis": "25.7698",
+   "nisn": "0035335646",
+   "nama": "Chalista Fitri Setiawan",
+   "kelas": "XI Akuntansi 1",
+   "no": 6
+  },
+  {
+   "nis": "25.7705",
+   "nisn": "0093523715",
+   "nama": "Delvyana",
+   "kelas": "XI Akuntansi 1",
+   "no": 7
+  },
+  {
+   "nis": "25.7913",
+   "nisn": "0091724683",
+   "nama": "Dessy",
+   "kelas": "XI Akuntansi 1",
+   "no": 8
+  },
+  {
+   "nis": "25.7729",
+   "nisn": "0104697087",
+   "nama": "Faizal Arif Harahap",
+   "kelas": "XI Akuntansi 1",
+   "no": 9
+  },
+  {
+   "nis": "25.7916",
+   "nisn": "0102346182",
+   "nama": "Fitri Raihan Fatama",
+   "kelas": "XI Akuntansi 1",
+   "no": 10
+  },
+  {
+   "nis": "25.7753",
+   "nisn": "3093066437",
+   "nama": "Hinda Yusaini",
+   "kelas": "XI Akuntansi 1",
+   "no": 11
+  },
+  {
+   "nis": "25.7765",
+   "nisn": "0097290455",
+   "nama": "Jessica Laura",
+   "kelas": "XI Akuntansi 1",
+   "no": 12
+  },
+  {
+   "nis": "25.7771",
+   "nisn": "0109080719",
+   "nama": "Kesya Verlika",
+   "kelas": "XI Akuntansi 1",
+   "no": 13
+  },
+  {
+   "nis": "25.7772",
+   "nisn": "0097809391",
+   "nama": "Keyla Musyharofah",
+   "kelas": "XI Akuntansi 1",
+   "no": 14
+  },
+  {
+   "nis": "25.7774",
+   "nisn": "0096761039",
+   "nama": "Khayla Chairunisa",
+   "kelas": "XI Akuntansi 1",
+   "no": 15
+  },
+  {
+   "nis": "25.7784",
+   "nisn": "0109366150",
+   "nama": "Marisahaq Rahmadhani",
+   "kelas": "XI Akuntansi 1",
+   "no": 16
+  },
+  {
+   "nis": "25.7789",
+   "nisn": "0108554575",
+   "nama": "Monika Dela Mustofa",
+   "kelas": "XI Akuntansi 1",
+   "no": 17
+  },
+  {
+   "nis": "25.7809",
+   "nisn": "0099727285",
+   "nama": "Muhammad Nazril Ilham",
+   "kelas": "XI Akuntansi 1",
+   "no": 18
+  },
+  {
+   "nis": "25.7816",
+   "nisn": "",
+   "nama": "Muhammad Safi'i",
+   "kelas": "XI Akuntansi 1",
+   "no": 19
+  },
+  {
+   "nis": "25.7829",
+   "nisn": "0101578842",
+   "nama": "Neisya Khairunnissa",
+   "kelas": "XI Akuntansi 1",
+   "no": 20
+  },
+  {
+   "nis": "25.7830",
+   "nisn": "0091231135",
+   "nama": "Nelia",
+   "kelas": "XI Akuntansi 1",
+   "no": 21
+  },
+  {
+   "nis": "25.7834",
+   "nisn": "0097707585",
+   "nama": "Novilia Zahra",
+   "kelas": "XI Akuntansi 1",
+   "no": 22
+  },
+  {
+   "nis": "25.7873",
+   "nisn": "0093500619",
+   "nama": "Safitri Maulidiya",
+   "kelas": "XI Akuntansi 1",
+   "no": 23
+  },
+  {
+   "nis": "25.7877",
+   "nisn": "0",
+   "nama": "Saroh Warohmah",
+   "kelas": "XI Akuntansi 1",
+   "no": 24
+  },
+  {
+   "nis": "25.7882",
+   "nisn": "0098796452",
+   "nama": "Seva Isma Aryani",
+   "kelas": "XI Akuntansi 1",
+   "no": 25
+  },
+  {
+   "nis": "25.7886",
+   "nisn": "0086304478",
+   "nama": "Suci Nia Rahhmadani",
+   "kelas": "XI Akuntansi 1",
+   "no": 26
+  },
+  {
+   "nis": "25.7891",
+   "nisn": "0081312696",
+   "nama": "Syila Sakinah",
+   "kelas": "XI Akuntansi 1",
+   "no": 27
+  },
+  {
+   "nis": "26.7924",
+   "nisn": "",
+   "nama": "Yati Faradillah",
+   "kelas": "XI Akuntansi 1",
+   "no": 28
+  },
+  {
+   "nis": "25.7907",
+   "nisn": "0091177085",
+   "nama": "Zaenal Arifin",
+   "kelas": "XI Akuntansi 1",
+   "no": 29
+  },
+  {
+   "nis": "25.7909",
+   "nisn": "0096903040",
+   "nama": "Zefanya Valencia P",
+   "kelas": "XI Akuntansi 1",
+   "no": 30
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Akuntansi 1",
+   "no": 31
+  },
+  {
+   "nis": "25.7661",
+   "nisn": "3084809031",
+   "nama": "Adriana Febriana Veerman",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 1
+  },
+  {
+   "nis": "25.7677",
+   "nisn": "0096759781",
+   "nama": "Anggun Wahyuningsih",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 2
+  },
+  {
+   "nis": "25.7685",
+   "nisn": "0084570772",
+   "nama": "Astrid Purnama Sari",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 3
+  },
+  {
+   "nis": "25.7687",
+   "nisn": "0093797227",
+   "nama": "Aulia Audina",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 4
+  },
+  {
+   "nis": "25.7703",
+   "nisn": "0098049571",
+   "nama": "Davina Lorenzia",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 5
+  },
+  {
+   "nis": "25.7735",
+   "nisn": "0085537356",
+   "nama": "Friskania Angelica Putri",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 6
+  },
+  {
+   "nis": "25.7835",
+   "nisn": "3099423953",
+   "nama": "Nur Aini",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 7
+  },
+  {
+   "nis": "25.7744",
+   "nisn": "0092339871",
+   "nama": "Gracia Veronica Sayou",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 8
+  },
+  {
+   "nis": "25.7760",
+   "nisn": "0093616328",
+   "nama": "Intan Garsela",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 9
+  },
+  {
+   "nis": "25.7776",
+   "nisn": "0083050176",
+   "nama": "Kristin Angelina Amanda Hutahaean",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 10
+  },
+  {
+   "nis": "25.7718",
+   "nisn": "0098338937",
+   "nama": "Duwi Putri Julia Sari",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 11
+  },
+  {
+   "nis": "25.7778",
+   "nisn": "0094651805",
+   "nama": "Lituhayu Sambara Nabil Kinaya",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 12
+  },
+  {
+   "nis": "25.7788",
+   "nisn": "0088496280",
+   "nama": "Mona Kilikily",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 13
+  },
+  {
+   "nis": "25.7824",
+   "nisn": "0099351118",
+   "nama": "Nanda Putri Cahyadi",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 14
+  },
+  {
+   "nis": "25.7854",
+   "nisn": "0095753767",
+   "nama": "Reisya Berliana Basrin",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 15
+  },
+  {
+   "nis": "25.7863",
+   "nisn": "0092899924",
+   "nama": "Ririn Oktaviani",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 16
+  },
+  {
+   "nis": "25.7866",
+   "nisn": "0093357968",
+   "nama": "Rizka Putri Anggraini",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 17
+  },
+  {
+   "nis": "25.7868",
+   "nisn": "0107152811",
+   "nama": "Rizqi Nurul Aini",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 18
+  },
+  {
+   "nis": "25.7870",
+   "nisn": "0091710867",
+   "nama": "Ruth Shandy Br Hutagalung",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 19
+  },
+  {
+   "nis": "25.7872",
+   "nisn": "3108999906",
+   "nama": "Safa Oktaviani",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 20
+  },
+  {
+   "nis": "25.7885",
+   "nisn": "0106566807",
+   "nama": "Sintia Ramadani Putri",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 21
+  },
+  {
+   "nis": "25.7889",
+   "nisn": "0095084707",
+   "nama": "Syaira Rindraini",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 22
+  },
+  {
+   "nis": "25.7893",
+   "nisn": "0099193867",
+   "nama": "Tiara Oktaviani",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 23
+  },
+  {
+   "nis": "25.7894",
+   "nisn": "0097629066",
+   "nama": "Tio Miranda Pardede",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 24
+  },
+  {
+   "nis": "25.7895",
+   "nisn": "0094469727",
+   "nama": "Tri Mutia",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 25
+  },
+  {
+   "nis": "25.7898",
+   "nisn": "0098204458",
+   "nama": "Vanny Malika Aprilia",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 26
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 27
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 28
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 29
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 30
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 31
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 33
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 34
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 1",
+   "no": 35
+  },
+  {
+   "nis": "25.7675",
+   "nisn": "0083318040",
+   "nama": "Amelia Febri Yana",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 1
+  },
+  {
+   "nis": "25.7684",
+   "nisn": "0",
+   "nama": "Asrofah Luamaroh",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 2
+  },
+  {
+   "nis": "25.7688",
+   "nisn": "0095941737",
+   "nama": "Avril Ziadatul  Faizal",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 3
+  },
+  {
+   "nis": "25.7920",
+   "nisn": "0093683269",
+   "nama": "Balqis Rasyidah Nursyaeliana",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 4
+  },
+  {
+   "nis": "25.7694",
+   "nisn": "0097676567",
+   "nama": "Bangun Yoga Hadi Nata",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 5
+  },
+  {
+   "nis": "25.7696",
+   "nisn": "0095401725",
+   "nama": "Bilqis Firyal Nabila",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 6
+  },
+  {
+   "nis": "25.7702",
+   "nisn": "0098090240",
+   "nama": "Dara Rafliana",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 7
+  },
+  {
+   "nis": "25.7709",
+   "nisn": "0119389966",
+   "nama": "Dewi Cantika Maharani",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 8
+  },
+  {
+   "nis": "25.7712",
+   "nisn": "0085375135",
+   "nama": "Diana Fajar Sari",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 9
+  },
+  {
+   "nis": "25.7734",
+   "nisn": "0104078327",
+   "nama": "Fatimatuz Zahra",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 10
+  },
+  {
+   "nis": "25.7740",
+   "nisn": "0102197011",
+   "nama": "Galuh Retno Anjani",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 11
+  },
+  {
+   "nis": "25.7922",
+   "nisn": "0096438912",
+   "nama": "Hafiz Maulana",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 12
+  },
+  {
+   "nis": "25.7747",
+   "nisn": "3099279724",
+   "nama": "Hamzah Maulidin",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 13
+  },
+  {
+   "nis": "25.7769",
+   "nisn": "0086023813",
+   "nama": "Kayla Putri Septiani",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 14
+  },
+  {
+   "nis": "25.7770",
+   "nisn": "0097058531",
+   "nama": "Kesya Silaban",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 15
+  },
+  {
+   "nis": "25.7779",
+   "nisn": "0107709953",
+   "nama": "Livia Putri Aulia",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 16
+  },
+  {
+   "nis": "25.7820",
+   "nisn": "0093349799",
+   "nama": "Nabila Rihadatul Aisya",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 17
+  },
+  {
+   "nis": "25.7821",
+   "nisn": "0082399510",
+   "nama": "Naila Hanifah",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 18
+  },
+  {
+   "nis": "25.7828",
+   "nisn": "3091277319",
+   "nama": "Nazwa Ilmira",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 19
+  },
+  {
+   "nis": "25.7838",
+   "nisn": "3091184161",
+   "nama": "Nur Syifa",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 20
+  },
+  {
+   "nis": "25.7865",
+   "nisn": "3103058818",
+   "nama": "Riyanti Syahrin Putri",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 21
+  },
+  {
+   "nis": "25.7875",
+   "nisn": "0094332501",
+   "nama": "Salsabila Putri",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 22
+  },
+  {
+   "nis": "25.7876",
+   "nisn": "0096211038",
+   "nama": "Salwa Khairunisa",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 23
+  },
+  {
+   "nis": "25.7883",
+   "nisn": "0094148158",
+   "nama": "Shavira Aulia Putri",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 24
+  },
+  {
+   "nis": "25.7890",
+   "nisn": "0091226191",
+   "nama": "Syifa divania feronica",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 25
+  },
+  {
+   "nis": "25.7892",
+   "nisn": "0091088047",
+   "nama": "Tiara Erminingtyas",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 26
+  },
+  {
+   "nis": "25.7903",
+   "nisn": "0101340943",
+   "nama": "Yesa Yustira",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 27
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 28
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 29
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 30
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 31
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 33
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 34
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 2",
+   "no": 35
+  },
+  {
+   "nis": "25.7657",
+   "nisn": "3095493497",
+   "nama": "Achmad Ardhan Rizky Ibrahim",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 1
+  },
+  {
+   "nis": "25.7686",
+   "nisn": "0099682356",
+   "nama": "Asyifa Nazwa",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 2
+  },
+  {
+   "nis": "25.7695",
+   "nisn": "0099046610",
+   "nama": "Bilqis Aquino Bumi Pradita",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 3
+  },
+  {
+   "nis": "25.7716",
+   "nisn": "0",
+   "nama": "Dinda Syafirra",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 4
+  },
+  {
+   "nis": "25.7777",
+   "nisn": "0088268245",
+   "nama": "Kristin Novalina",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 5
+  },
+  {
+   "nis": "25.7743",
+   "nisn": "0094259232",
+   "nama": "Gracia Anas Tasya",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 6
+  },
+  {
+   "nis": "25.7749",
+   "nisn": "0094366111",
+   "nama": "Haura Safwa Nisrina",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 7
+  },
+  {
+   "nis": "25.7761",
+   "nisn": "0107032395",
+   "nama": "Intan Lestari",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 8
+  },
+  {
+   "nis": "25.7763",
+   "nisn": "0095697254",
+   "nama": "Jannatul Ma'wa",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 9
+  },
+  {
+   "nis": "25.7768",
+   "nisn": "0094359438",
+   "nama": "Karisa Audi Putri",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 10
+  },
+  {
+   "nis": "25.7783",
+   "nisn": "0109844420",
+   "nama": "Marik Hermawan Ardiansyah",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 11
+  },
+  {
+   "nis": "25.7786",
+   "nisn": "0095745096",
+   "nama": "Mella Alsya Brilian",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 12
+  },
+  {
+   "nis": "25.7826",
+   "nisn": "0096069514",
+   "nama": "Nayla Al Tofunissa",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 13
+  },
+  {
+   "nis": "25.7831",
+   "nisn": "3099182304",
+   "nama": "Nina Mardiana",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 14
+  },
+  {
+   "nis": "25.7832",
+   "nisn": "0091901377",
+   "nama": "Nining Ivana Rahmat",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 15
+  },
+  {
+   "nis": "25.7833",
+   "nisn": "0092430138",
+   "nama": "Nirvananda",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 16
+  },
+  {
+   "nis": "25.7742",
+   "nisn": "0094804368",
+   "nama": "Grace Oktaviana Putri",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 17
+  },
+  {
+   "nis": "25.7921",
+   "nisn": "0093326047",
+   "nama": "Nur Aisyah",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 18
+  },
+  {
+   "nis": "25.7839",
+   "nisn": "0088636130",
+   "nama": "Nuraini",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 19
+  },
+  {
+   "nis": "25.7841",
+   "nisn": "0092570802",
+   "nama": "Nurita Rahmadani",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 20
+  },
+  {
+   "nis": "25.7862",
+   "nisn": "0107003689",
+   "nama": "Rifa Azallea Azzahra",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 21
+  },
+  {
+   "nis": "25.7884",
+   "nisn": "0099607220",
+   "nama": "Sherly Bunga Ramadhani",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 22
+  },
+  {
+   "nis": "25.7887",
+   "nisn": "",
+   "nama": "Syafa Syanazhiifah Assagaf",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 23
+  },
+  {
+   "nis": "25.7896",
+   "nisn": "0102724389",
+   "nama": "Unafa Aprilia",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 24
+  },
+  {
+   "nis": "25.7906",
+   "nisn": "0097895557",
+   "nama": "Yusuf Setiawan",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 25
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 26
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 27
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 28
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 29
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 30
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 31
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 33
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 34
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Manj Perkantoran 3",
+   "no": 35
+  },
+  {
+   "nis": "25.7665",
+   "nisn": "0091026057",
+   "nama": "Agus Widyanto",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 1
+  },
+  {
+   "nis": "25.7667",
+   "nisn": "0095375781",
+   "nama": "Ahmad Fadilah",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 2
+  },
+  {
+   "nis": "25.7670",
+   "nisn": "3107144451",
+   "nama": "Ahmad Vaylonga",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 3
+  },
+  {
+   "nis": "25.7671",
+   "nisn": "0082500217",
+   "nama": "Akbar Bayhaqi Taher",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 4
+  },
+  {
+   "nis": "25.7701",
+   "nisn": "3099967747",
+   "nama": "Danish Abdul Karim",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 5
+  },
+  {
+   "nis": "25.7708",
+   "nisn": "3092877096",
+   "nama": "Desurya Albiyal Pratama",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 6
+  },
+  {
+   "nis": "25.7710",
+   "nisn": "0094087504",
+   "nama": "Dharma",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 7
+  },
+  {
+   "nis": "25.7713",
+   "nisn": "3108043161",
+   "nama": "Dimas Rizal Saputra",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 8
+  },
+  {
+   "nis": "25.7714",
+   "nisn": "0076933423",
+   "nama": "Dimas Saputra",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 9
+  },
+  {
+   "nis": "25.7730",
+   "nisn": "0085656432",
+   "nama": "Fardan Aliansyah",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 10
+  },
+  {
+   "nis": "25.7732",
+   "nisn": "0094381354",
+   "nama": "Fasha Akhira Tanansyah",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 11
+  },
+  {
+   "nis": "25.7739",
+   "nisn": "0095962575",
+   "nama": "Galih Syahputra",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 12
+  },
+  {
+   "nis": "25.7758",
+   "nisn": "0085848024",
+   "nama": "Ibrahim Febrian",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 13
+  },
+  {
+   "nis": "25.7764",
+   "nisn": "3095009004",
+   "nama": "Jenysa Hana Atifah",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 14
+  },
+  {
+   "nis": "25.7775",
+   "nisn": "0098957572",
+   "nama": "Khoriz Permana",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 15
+  },
+  {
+   "nis": "25.7781",
+   "nisn": "3104999302",
+   "nama": "Manggala Widya",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 16
+  },
+  {
+   "nis": "25.7800",
+   "nisn": "0094132544",
+   "nama": "Muhammad Effan Danti",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 17
+  },
+  {
+   "nis": "25.7808",
+   "nisn": "3091592264",
+   "nama": "Muhammad Levi Meilo Maulana",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 18
+  },
+  {
+   "nis": "26.7923",
+   "nisn": "",
+   "nama": "Muhammad Ray Adriand",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 19
+  },
+  {
+   "nis": "25.7813",
+   "nisn": "3090595019",
+   "nama": "Muhammad Rivi Meilo Maulana",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 20
+  },
+  {
+   "nis": "25.7837",
+   "nisn": "3100094098",
+   "nama": "Nur Latifah",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 21
+  },
+  {
+   "nis": "25.7842",
+   "nisn": "0092042552",
+   "nama": "Okta Dwiyan Saputra",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 22
+  },
+  {
+   "nis": "25.7915",
+   "nisn": "",
+   "nama": "Qonitah Dwi Hidayah",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 23
+  },
+  {
+   "nis": "25.7848",
+   "nisn": "0",
+   "nama": "Rafli Dias Putra",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 24
+  },
+  {
+   "nis": "25.7856",
+   "nisn": "0087486548",
+   "nama": "Rendi Pangestu",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 25
+  },
+  {
+   "nis": "25.7857",
+   "nisn": "0092340227",
+   "nama": "Restu Rirmadhani",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 26
+  },
+  {
+   "nis": "25.7915",
+   "nisn": "0083091061",
+   "nama": "Rio Fernando",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 27
+  },
+  {
+   "nis": "25.7864",
+   "nisn": "93736846",
+   "nama": "Riski Saputra",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 28
+  },
+  {
+   "nis": "25.7869",
+   "nisn": "0092060210",
+   "nama": "Royhan",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 29
+  },
+  {
+   "nis": "25.7880",
+   "nisn": "0095768644",
+   "nama": "Selamet Miracle",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 30
+  },
+  {
+   "nis": "25.7914",
+   "nisn": "0098266754",
+   "nama": "Wahyu Widodo",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 31
+  },
+  {
+   "nis": "25.7908",
+   "nisn": "0093053938",
+   "nama": "Zalfaa Rahmani",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 33
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Teknik Komputer Jaringan 1",
+   "no": 34
+  },
+  {
+   "nis": "25.7669",
+   "nisn": "3091125064",
+   "nama": "Ahmad Raihan Azis",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 1
+  },
+  {
+   "nis": "25.7673",
+   "nisn": "0094878910",
+   "nama": "Alfiano Parasetio",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 2
+  },
+  {
+   "nis": "25.7678",
+   "nisn": "0097652548",
+   "nama": "Anissa Larassati",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 3
+  },
+  {
+   "nis": "25.7680",
+   "nisn": "0095714421",
+   "nama": "Apriyanto Sihotang",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 4
+  },
+  {
+   "nis": "25.7681",
+   "nisn": "092682800",
+   "nama": "Aquila Beata Dinda Sitanggang",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 5
+  },
+  {
+   "nis": "25.7690",
+   "nisn": "3098719764",
+   "nama": "Azriel Novansyah",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 6
+  },
+  {
+   "nis": "25.7700",
+   "nisn": "",
+   "nama": "Christiano Timotius Munthe",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 7
+  },
+  {
+   "nis": "25.7722",
+   "nisn": "0096905885",
+   "nama": "Evafrans Febriyanto Manalu",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 8
+  },
+  {
+   "nis": "25.7723",
+   "nisn": "0097480414",
+   "nama": "Fachri Pratama",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 9
+  },
+  {
+   "nis": "25.7728",
+   "nisn": "0081922043",
+   "nama": "Faisal Ahmad Syahrian",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 10
+  },
+  {
+   "nis": "25.7745",
+   "nisn": "0082514851",
+   "nama": "Haikal Ramadhan",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 11
+  },
+  {
+   "nis": "25.7748",
+   "nisn": "0085846531",
+   "nama": "Hari Murti Wijo Seno",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 12
+  },
+  {
+   "nis": "25.7751",
+   "nisn": "3082360155",
+   "nama": "Hibanfauzan Hadji W",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 13
+  },
+  {
+   "nis": "25.7817",
+   "nisn": "0097541818",
+   "nama": "Muhammad Taufik",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 14
+  },
+  {
+   "nis": "25.7773",
+   "nisn": "0105674407",
+   "nama": "Khairul Nizham",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 15
+  },
+  {
+   "nis": "25.7790",
+   "nisn": "0095262547",
+   "nama": "Muhamad Afkham",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 16
+  },
+  {
+   "nis": "25.7791",
+   "nisn": "96454207",
+   "nama": "Muhamad Dimas Andrian",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 17
+  },
+  {
+   "nis": "25.7793",
+   "nisn": "0092606632",
+   "nama": "Muhamad Rasid",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 18
+  },
+  {
+   "nis": "25.7803",
+   "nisn": "0093805966",
+   "nama": "Muhammad Fajar Jaisyul Haq",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 19
+  },
+  {
+   "nis": "25.7807",
+   "nisn": "009817174",
+   "nama": "Muhammad Ilham Ramadhan",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 20
+  },
+  {
+   "nis": "25.7798",
+   "nisn": "0105549790",
+   "nama": "Muhammad Ardian",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 21
+  },
+  {
+   "nis": "25.7812",
+   "nisn": "0083777289",
+   "nama": "Muhammad Rasya Aditya",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 22
+  },
+  {
+   "nis": "25.7814",
+   "nisn": "0085055556",
+   "nama": "Muhammad Rosi Daffaul Khoir",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 23
+  },
+  {
+   "nis": "25.7818",
+   "nisn": "0099049714",
+   "nama": "Muhammad Yusuf Al Alim",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 24
+  },
+  {
+   "nis": "25.7823",
+   "nisn": "0097952787",
+   "nama": "Nanda Bintang Ramadan",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 25
+  },
+  {
+   "nis": "25.7850",
+   "nisn": "0084523476",
+   "nama": "Ramzy Muhammad Haidar",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 26
+  },
+  {
+   "nis": "25.7851",
+   "nisn": "3095556184",
+   "nama": "Rangga Anzas Permana",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 27
+  },
+  {
+   "nis": "25.7871",
+   "nisn": "0091822936",
+   "nama": "Sadewa Mulyana",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 28
+  },
+  {
+   "nis": "25.7897",
+   "nisn": "104761252",
+   "nama": "Valentino Rossy",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 29
+  },
+  {
+   "nis": "25.7899",
+   "nisn": "0096361217",
+   "nama": "Wahyudan Lauby",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 30
+  },
+  {
+   "nis": "25.7900",
+   "nisn": "3095253201",
+   "nama": "Wildan Saputra",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 31
+  },
+  {
+   "nis": "25.7911",
+   "nisn": "3094259010",
+   "nama": "Zivanya Gisela",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Teknik Komputer Jaringan 2",
+   "no": 33
+  },
+  {
+   "nis": "25.7655",
+   "nisn": "0087709390",
+   "nama": "Abdee Surya Rahman",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 1
+  },
+  {
+   "nis": "25.7664",
+   "nisn": "0084808276",
+   "nama": "Agus Rahmadtulloh",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 2
+  },
+  {
+   "nis": "25.7691",
+   "nisn": "3104894884",
+   "nama": "Azzam Daruquthni",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 3
+  },
+  {
+   "nis": "25.7697",
+   "nisn": "0094312051",
+   "nama": "Bintang Novri Saputra",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 4
+  },
+  {
+   "nis": "25.7706",
+   "nisn": "0087077757",
+   "nama": "Deri Perdiansah",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 5
+  },
+  {
+   "nis": "25.7720",
+   "nisn": "008487220",
+   "nama": "Edwan Azhar Aufaah",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 6
+  },
+  {
+   "nis": "25.7724",
+   "nisn": "0096057572",
+   "nama": "Fadhil Aqrom Ramadhan",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 7
+  },
+  {
+   "nis": "25.7726",
+   "nisn": "002736959",
+   "nama": "Fahreza",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 8
+  },
+  {
+   "nis": "25.7727",
+   "nisn": "009'4442082",
+   "nama": "Fahri Mifta Elvala",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 9
+  },
+  {
+   "nis": "25.7737",
+   "nisn": "3100402817",
+   "nama": "Galang Arya Maulana",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 10
+  },
+  {
+   "nis": "25.7741",
+   "nisn": "0091890166",
+   "nama": "Ghazy Elhumami",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 11
+  },
+  {
+   "nis": "25.7750",
+   "nisn": "0093551987",
+   "nama": "Hendra Maulana",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 12
+  },
+  {
+   "nis": "25.7754",
+   "nisn": "3101288678",
+   "nama": "Hudiyah Ratu Lailal",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 13
+  },
+  {
+   "nis": "25.7755",
+   "nisn": "0083341303",
+   "nama": "Husein",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 14
+  },
+  {
+   "nis": "25.7757",
+   "nisn": "3085202970",
+   "nama": "Ibrahim Al Buhori",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 15
+  },
+  {
+   "nis": "25.7759",
+   "nisn": "0083963122",
+   "nama": "Imam Nur Ali Basyuni",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 16
+  },
+  {
+   "nis": "25.7766",
+   "nisn": "0086793085",
+   "nama": "Juan Naza Maulana",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 17
+  },
+  {
+   "nis": "25.7792",
+   "nisn": "0098814809",
+   "nama": "Muhamad Fachri",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 18
+  },
+  {
+   "nis": "25.7799",
+   "nisn": "0106400859",
+   "nama": "Muhammad Azzam Al Fansyah",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 19
+  },
+  {
+   "nis": "25.7802",
+   "nisn": "3537510071",
+   "nama": "Muhammad Fahmi Efendi",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 20
+  },
+  {
+   "nis": "25.7815",
+   "nisn": "0091975411",
+   "nama": "Muhammad Safian Rizqi",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 21
+  },
+  {
+   "nis": "25.7819",
+   "nisn": "0099049714",
+   "nama": "Muhammad Zaran Nofal",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 22
+  },
+  {
+   "nis": "25.7836",
+   "nisn": "0091753175",
+   "nama": "Nur Aulia Putri Sumardhani",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 23
+  },
+  {
+   "nis": "25.7840",
+   "nisn": "3093568626",
+   "nama": "Nurholis Ubam",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 24
+  },
+  {
+   "nis": "25.7847",
+   "nisn": "009103556",
+   "nama": "Raffiq Maolana Ihsan",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 25
+  },
+  {
+   "nis": "25.7852",
+   "nisn": "0097748867",
+   "nama": "Rasya Dwi Raditya",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 26
+  },
+  {
+   "nis": "25.7861",
+   "nisn": "0096460926",
+   "nama": "Ridwan Maulana",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 27
+  },
+  {
+   "nis": "25.7888",
+   "nisn": "0089873413",
+   "nama": "Syahril Supriyadi",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 28
+  },
+  {
+   "nis": "25.7902",
+   "nisn": "0093532849",
+   "nama": "Yesa Alva Rizi Asnawi",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 29
+  },
+  {
+   "nis": "25.7905",
+   "nisn": "3702923627",
+   "nama": "Yohana Kristin",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 30
+  },
+  {
+   "nis": "25.7910",
+   "nisn": "3098289683",
+   "nama": "Zidan Ramadhan Sauri",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 31
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XI Teknik Komputer Jaringan 3",
+   "no": 33
+  },
+  {
+   "nis": "25.7668",
+   "nisn": "0086417234",
+   "nama": "Ahmad Fikri",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 1
+  },
+  {
+   "nis": "25.7674",
+   "nisn": "0097934609",
+   "nama": "Aliza Nursila",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 2
+  },
+  {
+   "nis": "25.7676",
+   "nisn": "0102611176",
+   "nama": "Andra Yudy Firmansyah",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 3
+  },
+  {
+   "nis": "25.7692",
+   "nisn": "0087864530",
+   "nama": "Bagus Ramaditya",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 4
+  },
+  {
+   "nis": "25.7704",
+   "nisn": "'0092642951",
+   "nama": "Dela Agustin",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 5
+  },
+  {
+   "nis": "25.7711",
+   "nisn": "",
+   "nama": "Dian Wahyu Saputri",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 6
+  },
+  {
+   "nis": "25.7715",
+   "nisn": "0092265106",
+   "nama": "Dimas Saputra",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 7
+  },
+  {
+   "nis": "25.7719",
+   "nisn": "0094522050",
+   "nama": "Dwi Nova Maulana",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 8
+  },
+  {
+   "nis": "25.7725",
+   "nisn": "0094628682",
+   "nama": "Fadli Syaputra Rahman",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 9
+  },
+  {
+   "nis": "25.7731",
+   "nisn": "0095861602",
+   "nama": "Farizi Seftian Ramadan",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 10
+  },
+  {
+   "nis": "25.7733",
+   "nisn": "3108104256",
+   "nama": "Fathir Al Yakin",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 11
+  },
+  {
+   "nis": "25.7746",
+   "nisn": "3095171747",
+   "nama": "Halilintar",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 12
+  },
+  {
+   "nis": "25.7752",
+   "nisn": "0099517907",
+   "nama": "Hilal Abiyu Jamail",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 13
+  },
+  {
+   "nis": "25.7767",
+   "nisn": "0082825874",
+   "nama": "Julius Hidayat",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 14
+  },
+  {
+   "nis": "25.7780",
+   "nisn": "0098832434",
+   "nama": "M. Reski Romadoni",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 15
+  },
+  {
+   "nis": "25.7787",
+   "nisn": "0107527015",
+   "nama": "Mikhael Tondi Parlindugan Siahaan",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 16
+  },
+  {
+   "nis": "25.7794",
+   "nisn": "0081416368",
+   "nama": "Muhamad Yoga Rafliansyah",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 17
+  },
+  {
+   "nis": "25.7795",
+   "nisn": "3102745492",
+   "nama": "Muhamd Ilham Badrussalam",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 18
+  },
+  {
+   "nis": "25.7796",
+   "nisn": "0083288730",
+   "nama": "Muhammad Akbar",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 19
+  },
+  {
+   "nis": "25.7801",
+   "nisn": "0096362704",
+   "nama": "Muhammad Fachri Sandy",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 20
+  },
+  {
+   "nis": "25.7805",
+   "nisn": "0091236572",
+   "nama": "Muhammad Fauzan",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 21
+  },
+  {
+   "nis": "25.7810",
+   "nisn": "0",
+   "nama": "Muhammad Nur Kaisar Zulkarnaen",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 22
+  },
+  {
+   "nis": "25.7811",
+   "nisn": "3097900704",
+   "nama": "Muhammad Rafi",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 23
+  },
+  {
+   "nis": "25.7825",
+   "nisn": "0092559518",
+   "nama": "Nanda Risqi Rhamadhan",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 24
+  },
+  {
+   "nis": "25.7845",
+   "nisn": "007387970",
+   "nama": "Putri Nabila Az Zahra",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 25
+  },
+  {
+   "nis": "25.7849",
+   "nisn": "0092272331",
+   "nama": "Rahmat Nur Syawal",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 26
+  },
+  {
+   "nis": "25.7853",
+   "nisn": "0109181866",
+   "nama": "Rayean Aprilino",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 27
+  },
+  {
+   "nis": "25.7855",
+   "nisn": "0",
+   "nama": "Renaldi Saputra",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 28
+  },
+  {
+   "nis": "25.7859",
+   "nisn": "0096073269",
+   "nama": "Ridho Nur Hidayat",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 29
+  },
+  {
+   "nis": "25.7878",
+   "nisn": "0094332501",
+   "nama": "Satrio Wibowo",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 30
+  },
+  {
+   "nis": "25.7879",
+   "nisn": "0092638366",
+   "nama": "Satya Sauqi",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 31
+  },
+  {
+   "nis": "25.7904",
+   "nisn": "0077998206",
+   "nama": "Yoga Indra Setiawan",
+   "kelas": "XI Teknik Komputer Jaringan 4",
+   "no": 32
+  },
+  {
+   "nis": "24.7422",
+   "nisn": "0082408266",
+   "nama": "Anita Rahma Yuli Yanto",
+   "kelas": "XII Akuntansi 1",
+   "no": 1
+  },
+  {
+   "nis": "24.7423",
+   "nisn": "0088579188",
+   "nama": "Aprilia Nur Hidayah",
+   "kelas": "XII Akuntansi 1",
+   "no": 2
+  },
+  {
+   "nis": "24.7427",
+   "nisn": "3080809873",
+   "nama": "Asifatun Nabila",
+   "kelas": "XII Akuntansi 1",
+   "no": 3
+  },
+  {
+   "nis": "24.7430",
+   "nisn": "0082926455",
+   "nama": "Aurel Kezia Christianto",
+   "kelas": "XII Akuntansi 1",
+   "no": 4
+  },
+  {
+   "nis": "24.7443",
+   "nisn": "0097652490",
+   "nama": "Cynthia Wijayanti Budiman",
+   "kelas": "XII Akuntansi 1",
+   "no": 5
+  },
+  {
+   "nis": "24.7448",
+   "nisn": "0082556647",
+   "nama": "Devi Samawati Navila",
+   "kelas": "XII Akuntansi 1",
+   "no": 6
+  },
+  {
+   "nis": "24.7452",
+   "nisn": "0071272509",
+   "nama": "Dinda Safitri",
+   "kelas": "XII Akuntansi 1",
+   "no": 7
+  },
+  {
+   "nis": "24.7454",
+   "nisn": "0083215793",
+   "nama": "Dwi Cahaya",
+   "kelas": "XII Akuntansi 1",
+   "no": 8
+  },
+  {
+   "nis": "24.7465",
+   "nisn": "0098010114",
+   "nama": "Febby Atika Chandra",
+   "kelas": "XII Akuntansi 1",
+   "no": 9
+  },
+  {
+   "nis": "24.7479",
+   "nisn": "0093183330",
+   "nama": "Hellen Lavenia Rasty",
+   "kelas": "XII Akuntansi 1",
+   "no": 10
+  },
+  {
+   "nis": "24.7504",
+   "nisn": "0089790501",
+   "nama": "Latipah Agustina",
+   "kelas": "XII Akuntansi 1",
+   "no": 11
+  },
+  {
+   "nis": "24.7506",
+   "nisn": "0099414637",
+   "nama": "Luckia Laysabilla",
+   "kelas": "XII Akuntansi 1",
+   "no": 12
+  },
+  {
+   "nis": "24.7507",
+   "nisn": "0084066461",
+   "nama": "M. Nur Adnan",
+   "kelas": "XII Akuntansi 1",
+   "no": 13
+  },
+  {
+   "nis": "24.7554",
+   "nisn": "0082803840",
+   "nama": "Novalia Estiyanti",
+   "kelas": "XII Akuntansi 1",
+   "no": 14
+  },
+  {
+   "nis": "24.7555",
+   "nisn": "3087454383",
+   "nama": "Novita La Ul",
+   "kelas": "XII Akuntansi 1",
+   "no": 15
+  },
+  {
+   "nis": "24.7557",
+   "nisn": "3083915325",
+   "nama": "Nurul Anisa Fitri",
+   "kelas": "XII Akuntansi 1",
+   "no": 16
+  },
+  {
+   "nis": "24.7558",
+   "nisn": "0091442532",
+   "nama": "Okta Agustina",
+   "kelas": "XII Akuntansi 1",
+   "no": 17
+  },
+  {
+   "nis": "24.7563",
+   "nisn": "0075465327",
+   "nama": "Putri Nabila",
+   "kelas": "XII Akuntansi 1",
+   "no": 18
+  },
+  {
+   "nis": "24.7567",
+   "nisn": "0081155906",
+   "nama": "Rachsya Zairanti",
+   "kelas": "XII Akuntansi 1",
+   "no": 19
+  },
+  {
+   "nis": "24.7591",
+   "nisn": "0084722640",
+   "nama": "Rizka Amalia",
+   "kelas": "XII Akuntansi 1",
+   "no": 20
+  },
+  {
+   "nis": "24.7611",
+   "nisn": "0095523556",
+   "nama": "Siti Muliah",
+   "kelas": "XII Akuntansi 1",
+   "no": 21
+  },
+  {
+   "nis": "24.7614",
+   "nisn": "0096953223",
+   "nama": "Solekha Aprilia",
+   "kelas": "XII Akuntansi 1",
+   "no": 22
+  },
+  {
+   "nis": "24.7636",
+   "nisn": "0093681583",
+   "nama": "Vina Habiliya Rahmawati",
+   "kelas": "XII Akuntansi 1",
+   "no": 23
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Akuntansi 1",
+   "no": 24
+  },
+  {
+   "nis": "25.7653",
+   "nisn": "0",
+   "nama": "Anisa Eka Salsabila",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 1
+  },
+  {
+   "nis": "24.7426",
+   "nisn": "0098018919",
+   "nama": "Arta Vebiari",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 2
+  },
+  {
+   "nis": "24.7428",
+   "nisn": "085095018",
+   "nama": "Atama Yulia Wanti",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 3
+  },
+  {
+   "nis": "24.7439",
+   "nisn": "3066348954",
+   "nama": "Bunga Mahwada",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 4
+  },
+  {
+   "nis": "24.7447",
+   "nisn": "0082505449",
+   "nama": "Della Delvia Octaviana Sitompul",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 5
+  },
+  {
+   "nis": "24.7455",
+   "nisn": "0084992389",
+   "nama": "Embun Kumalasari",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 6
+  },
+  {
+   "nis": "24.7456",
+   "nisn": "0",
+   "nama": "Erlin Anggaeni Cahya Gia Apriyanto",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 7
+  },
+  {
+   "nis": "24.7459",
+   "nisn": "0081597752",
+   "nama": "Fanny Anjelina Sitinjak",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 8
+  },
+  {
+   "nis": "24.7461",
+   "nisn": "0089166553",
+   "nama": "Fathiyah Miftahuljanah",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 9
+  },
+  {
+   "nis": "24.7471",
+   "nisn": "0087988354",
+   "nama": "Gabriel Ricardo H. Siregar",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 10
+  },
+  {
+   "nis": "24.7489",
+   "nisn": "0081054440",
+   "nama": "Irsalina Nur Inarah",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 11
+  },
+  {
+   "nis": "24.7498",
+   "nisn": "0076383420",
+   "nama": "Kenny",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 12
+  },
+  {
+   "nis": "24.7499",
+   "nisn": "0087612467",
+   "nama": "Keysa Novia Jisti",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 13
+  },
+  {
+   "nis": "24.7501",
+   "nisn": "0086660498",
+   "nama": "Khairun Nisa",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 14
+  },
+  {
+   "nis": "24.7503",
+   "nisn": "0082249975",
+   "nama": "Khyisha Indriyani",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 15
+  },
+  {
+   "nis": "24.7509",
+   "nisn": "0085268792",
+   "nama": "Mela Agustina",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 16
+  },
+  {
+   "nis": "24.7485",
+   "nisn": "0096294152",
+   "nama": "Ina Kurnia",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 17
+  },
+  {
+   "nis": "24.7545",
+   "nisn": "0082774395",
+   "nama": "Nadira Anggraini",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 18
+  },
+  {
+   "nis": "24.7546",
+   "nisn": "0088187843",
+   "nama": "Nadya Meylani Pasyha",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 19
+  },
+  {
+   "nis": "24.7551",
+   "nisn": "0081606841",
+   "nama": "Nhabilah Chaerani Gunawan",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 20
+  },
+  {
+   "nis": "24.7552",
+   "nisn": "0",
+   "nama": "Niken Cantika Zaelani",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 21
+  },
+  {
+   "nis": "24.7564",
+   "nisn": "0086007259",
+   "nama": "Putri Nabila Yusuf",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 22
+  },
+  {
+   "nis": "24.7566",
+   "nisn": "0097826730",
+   "nama": "Putri Shafa Marwah",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 23
+  },
+  {
+   "nis": "24.7572",
+   "nisn": "0086291158",
+   "nama": "Rameyza Elya",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 24
+  },
+  {
+   "nis": "24.7574",
+   "nisn": "3094610291",
+   "nama": "Rasti Dwi Asfiah",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 25
+  },
+  {
+   "nis": "24.7583",
+   "nisn": "0087787594",
+   "nama": "Riana Noviana",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 26
+  },
+  {
+   "nis": "24.7597",
+   "nisn": "3082512140",
+   "nama": "Safira",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 27
+  },
+  {
+   "nis": "24.7606",
+   "nisn": "0082830088",
+   "nama": "Silvia Rahma",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 28
+  },
+  {
+   "nis": "24.7609",
+   "nisn": "0082912308",
+   "nama": "Siti Khumairah",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 29
+  },
+  {
+   "nis": "24.7608",
+   "nisn": "0081374819",
+   "nama": "Siti Solehah",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 30
+  },
+  {
+   "nis": "24.7613",
+   "nisn": "0089560711",
+   "nama": "Tarisa Anggraini",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 31
+  },
+  {
+   "nis": "24.7640",
+   "nisn": "0089898682",
+   "nama": "Yerikho Juan Alvin Parinussa",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Manaj Perkantoran 1",
+   "no": 33
+  },
+  {
+   "nis": "24.7418",
+   "nisn": "3089175283",
+   "nama": "Amanda Anastasya",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 1
+  },
+  {
+   "nis": "24.7419",
+   "nisn": "0089761654",
+   "nama": "Andi Mutiara Parenrengi",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 2
+  },
+  {
+   "nis": "24.7421",
+   "nisn": "0085915476",
+   "nama": "Andini Putri Azzura",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 3
+  },
+  {
+   "nis": "24.7429",
+   "nisn": "0086008427",
+   "nama": "Aulia Ramadhani",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 4
+  },
+  {
+   "nis": "24.7432",
+   "nisn": "0083588413",
+   "nama": "Avika Fauziah Ma'mun",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 5
+  },
+  {
+   "nis": "24.7445",
+   "nisn": "0098718419",
+   "nama": "Daniyyah Asyifa",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 6
+  },
+  {
+   "nis": "24.7469",
+   "nisn": "0093815645",
+   "nama": "Fitri Handayani",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 7
+  },
+  {
+   "nis": "24.7476",
+   "nisn": "0085393521",
+   "nama": "Gresia Prisila Siregar",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 8
+  },
+  {
+   "nis": "24.7483",
+   "nisn": "3092714474",
+   "nama": "Ibnu Sabillan Rosyada",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 9
+  },
+  {
+   "nis": "24.7500",
+   "nisn": "0087691502",
+   "nama": "Keysia Rahmadani",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 10
+  },
+  {
+   "nis": "24.7502",
+   "nisn": "0087909685",
+   "nama": "Kharisa Viany Putri",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 11
+  },
+  {
+   "nis": "24.7542",
+   "nisn": "009604365",
+   "nama": "Mutiara Syafitri",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 12
+  },
+  {
+   "nis": "26.7925",
+   "nisn": "0098416092",
+   "nama": "Nabila Cinta Liyana",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 13
+  },
+  {
+   "nis": "24.7543",
+   "nisn": "0086227486",
+   "nama": "Nabila Putri Zafira",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 14
+  },
+  {
+   "nis": "24.7544",
+   "nisn": "0",
+   "nama": "Nabila Siti Farida",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 15
+  },
+  {
+   "nis": "24.7549",
+   "nisn": "0085732854",
+   "nama": "Nashwa Zahrotul Shita",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 16
+  },
+  {
+   "nis": "24.7550",
+   "nisn": "0087379154",
+   "nama": "Navita Kesya Zulfida",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 17
+  },
+  {
+   "nis": "24.7553",
+   "nisn": "0082197394",
+   "nama": "Nodita Aska Fahira",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 18
+  },
+  {
+   "nis": "24.7562",
+   "nisn": "0084874120",
+   "nama": "Puan Tazqya",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 19
+  },
+  {
+   "nis": "24.7565",
+   "nisn": "0086798965",
+   "nama": "Putri Novisha Yusuf",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 20
+  },
+  {
+   "nis": "24.7581",
+   "nisn": "0089563828",
+   "nama": "Reno Alam Zhaputra",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 21
+  },
+  {
+   "nis": "24.7588",
+   "nisn": "0089400354",
+   "nama": "Riska Aulia",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 22
+  },
+  {
+   "nis": "24.7589",
+   "nisn": "0086903756",
+   "nama": "Rufa Ayu Faradilla",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 23
+  },
+  {
+   "nis": "24.7604",
+   "nisn": "0088041396",
+   "nama": "Septiana Olifia",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 24
+  },
+  {
+   "nis": "24.7596",
+   "nisn": "0081647400",
+   "nama": "Silvia Syahla",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 25
+  },
+  {
+   "nis": "24.7607",
+   "nisn": "0084046303",
+   "nama": "Silviyana Budiyanti",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 26
+  },
+  {
+   "nis": "24.7610",
+   "nisn": "3088384239",
+   "nama": "Siti Maesaroh",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 27
+  },
+  {
+   "nis": "24.7628",
+   "nisn": "0096673400",
+   "nama": "Tiara Ramadhani",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 28
+  },
+  {
+   "nis": "24.7632",
+   "nisn": "0088557852",
+   "nama": "Valen Novi Hermawati",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 29
+  },
+  {
+   "nis": "24.7635",
+   "nisn": "0078740804",
+   "nama": "Viana Aurelia Yuswo",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 30
+  },
+  {
+   "nis": "24.7637",
+   "nisn": "0089834947",
+   "nama": "Virna Amelia Putri",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 31
+  },
+  {
+   "nis": "24.7621",
+   "nisn": "0085206479",
+   "nama": "Zahra Nursita",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 32
+  },
+  {
+   "nis": "24.7646",
+   "nisn": "0094873066",
+   "nama": "Ziza Mahsyikho",
+   "kelas": "XII Manaj Perkantoran 2",
+   "no": 33
+  },
+  {
+   "nis": "24.7411",
+   "nisn": "0091730686",
+   "nama": "Ahmad Rafa Muazzam",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 1
+  },
+  {
+   "nis": "24.7413",
+   "nisn": "3083876559",
+   "nama": "Akbar Maulana",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 2
+  },
+  {
+   "nis": "24.7434",
+   "nisn": "0082900174",
+   "nama": "Bagus Pratama",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 3
+  },
+  {
+   "nis": "24.7435",
+   "nisn": "0082611791",
+   "nama": "Ben Rafa Akasya Kolondam",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 4
+  },
+  {
+   "nis": "24.7440",
+   "nisn": "0084867879",
+   "nama": "Cevin Sami Oniell",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 5
+  },
+  {
+   "nis": "24.7446",
+   "nisn": "0092898721",
+   "nama": "Danny Aliffino Cahyadi",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 6
+  },
+  {
+   "nis": "24.7449",
+   "nisn": "0076106640",
+   "nama": "Dimas Khairul Adam",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 7
+  },
+  {
+   "nis": "24.7458",
+   "nisn": "0099531294",
+   "nama": "Fahri Nur Ardiansyah",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 8
+  },
+  {
+   "nis": "24.7464",
+   "nisn": "0092571989",
+   "nama": "Fazri Iqbal Nur Faiz",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 9
+  },
+  {
+   "nis": "24.7480",
+   "nisn": "0093463098",
+   "nama": "Hendra Samito",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 10
+  },
+  {
+   "nis": "24.7481",
+   "nisn": "3084760840",
+   "nama": "Hikmah Amalia Safitri",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 11
+  },
+  {
+   "nis": "24.7484",
+   "nisn": "0084970974",
+   "nama": "Ikhwan Saputra",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 12
+  },
+  {
+   "nis": "24.7487",
+   "nisn": "0086928679",
+   "nama": "Iqhdal Umam Baiturrahman",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 13
+  },
+  {
+   "nis": "24.7494",
+   "nisn": "0084008646",
+   "nama": "Juwito",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 14
+  },
+  {
+   "nis": "24.7508",
+   "nisn": "3082391804",
+   "nama": "Marchel Dwiyanto",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 15
+  },
+  {
+   "nis": "24.7512",
+   "nisn": "3080723926",
+   "nama": "Mochammad Fatchur Rahman",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 16
+  },
+  {
+   "nis": "24.7516",
+   "nisn": "3099375030",
+   "nama": "Muhamad Fauzan Fadhilah",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 17
+  },
+  {
+   "nis": "24.7648",
+   "nisn": "0083555930",
+   "nama": "Muhamad Nabil Alfahrim",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 18
+  },
+  {
+   "nis": "24.7520",
+   "nisn": "3077676774",
+   "nama": "Muhammad Akbar Nugroho",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 19
+  },
+  {
+   "nis": "25.7918",
+   "nisn": "0098700885",
+   "nama": "Muhammad Fachri Maulana",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 20
+  },
+  {
+   "nis": "24.7534",
+   "nisn": "0081023149",
+   "nama": "Muhammad Rizki Ibrahim",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 21
+  },
+  {
+   "nis": "24.7547",
+   "nisn": "0084943458",
+   "nama": "Nailla Sekar Prastika",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 22
+  },
+  {
+   "nis": "24.7548",
+   "nisn": "0089313034",
+   "nama": "Nakif Hilmi Abyan",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 23
+  },
+  {
+   "nis": "26.7926",
+   "nisn": "",
+   "nama": "Raihan Fathan Fahrezi",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 24
+  },
+  {
+   "nis": "24.7570",
+   "nisn": "0098382691",
+   "nama": "Raka Danu Abdillah",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 25
+  },
+  {
+   "nis": "24.7573",
+   "nisn": "3096187184",
+   "nama": "Ramzi Aufa Al-Ghiffari",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 26
+  },
+  {
+   "nis": "24.7575",
+   "nisn": "0091018787",
+   "nama": "Regan Ar Revan Andrean",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 27
+  },
+  {
+   "nis": "24.7586",
+   "nisn": "0086528520",
+   "nama": "Ridho Ramadan",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 28
+  },
+  {
+   "nis": "24.7598",
+   "nisn": "0091435593",
+   "nama": "Salva Billa Aulia",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 29
+  },
+  {
+   "nis": "24.7625",
+   "nisn": "0079516192",
+   "nama": "Teuku Muhammad Ariyo Nugraha",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 30
+  },
+  {
+   "nis": "24.7629",
+   "nisn": "0084970493",
+   "nama": "Tio Santo Bahri Napitupulu",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 31
+  },
+  {
+   "nis": "24.7631",
+   "nisn": "0086835880",
+   "nama": "Tristan Sean Gail Tengker",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 33
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 1",
+   "no": 34
+  },
+  {
+   "nis": "24.7408",
+   "nisn": "0086924981",
+   "nama": "Aghnia Kirani Tasdik",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 1
+  },
+  {
+   "nis": "24.7410",
+   "nisn": "0088934876",
+   "nama": "Ahmad Bahril Wahdah",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 2
+  },
+  {
+   "nis": "24.7442",
+   "nisn": "0087501261",
+   "nama": "Citra Riani",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 3
+  },
+  {
+   "nis": "24.7460",
+   "nisn": "85019903",
+   "nama": "Fardin Sahrul Romadoni",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 4
+  },
+  {
+   "nis": "24.7470",
+   "nisn": "0096853895",
+   "nama": "Fitriani Nurassilah",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 5
+  },
+  {
+   "nis": "24.7473",
+   "nisn": "3087481499",
+   "nama": "Galih Saputra",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 6
+  },
+  {
+   "nis": "24.7474",
+   "nisn": "0082314347",
+   "nama": "Galuh Sinatria",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 7
+  },
+  {
+   "nis": "24.7486",
+   "nisn": "3080567346",
+   "nama": "Iqbal Mardiansyah",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 8
+  },
+  {
+   "nis": "24.7493",
+   "nisn": "0092475793",
+   "nama": "Junior Ardiansyah",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 9
+  },
+  {
+   "nis": "24.7495",
+   "nisn": "0088192677",
+   "nama": "Kaeysya Silfiani",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 10
+  },
+  {
+   "nis": "24.7513",
+   "nisn": "0081729062",
+   "nama": "Mohammad Jahidin Malik",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 11
+  },
+  {
+   "nis": "24.7517",
+   "nisn": "0088374089",
+   "nama": "Muhamad Restu Saputra",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 12
+  },
+  {
+   "nis": "24.7524",
+   "nisn": "0086861260",
+   "nama": "Muhammad Faiz Rabbani",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 13
+  },
+  {
+   "nis": "24.7525",
+   "nisn": "0087747137",
+   "nama": "Muhammad Fajar",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 14
+  },
+  {
+   "nis": "24.7530",
+   "nisn": "0081969319",
+   "nama": "Muhammad Naufal Fadilah",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 15
+  },
+  {
+   "nis": "24.7531",
+   "nisn": "0078328005",
+   "nama": "Muhammad Revaldo Al-Dzahabi",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 16
+  },
+  {
+   "nis": "24.7535",
+   "nisn": "0098997857",
+   "nama": "Muhammad Rizky Saputra",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 17
+  },
+  {
+   "nis": "24.7537",
+   "nisn": "0094314283",
+   "nama": "Muhammad Syaiban Al Hasyid",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 18
+  },
+  {
+   "nis": "24.7560",
+   "nisn": "0087622916",
+   "nama": "Pendhi Anjar Riyanto",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 19
+  },
+  {
+   "nis": "24.7561",
+   "nisn": "0099275094",
+   "nama": "Priyatno",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 20
+  },
+  {
+   "nis": "24.7578",
+   "nisn": "0086744558",
+   "nama": "Reihan Surya Pradita",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 21
+  },
+  {
+   "nis": "24.7582",
+   "nisn": "0075656875",
+   "nama": "Reyzhal Zulfadlie",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 22
+  },
+  {
+   "nis": "24.7584",
+   "nisn": "3091179455",
+   "nama": "Riany Ronatio",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 23
+  },
+  {
+   "nis": "24.7590",
+   "nisn": "3080112310",
+   "nama": "Risky Baihaqy",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 24
+  },
+  {
+   "nis": "24.7593",
+   "nisn": "0103657686",
+   "nama": "Rizky Kaysan Abi",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 25
+  },
+  {
+   "nis": "24.7594",
+   "nisn": "0095092303",
+   "nama": "Rizky Pratama",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 26
+  },
+  {
+   "nis": "24.7595",
+   "nisn": "0084586248",
+   "nama": "Ruben Markus Palandi",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 27
+  },
+  {
+   "nis": "24.7601",
+   "nisn": "0096265442",
+   "nama": "Sarviola Adnan Rebbyansah",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 28
+  },
+  {
+   "nis": "24.7618",
+   "nisn": "0085547739",
+   "nama": "Syahputra Dermawan",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 29
+  },
+  {
+   "nis": "24.7627",
+   "nisn": "0085611858",
+   "nama": "Tiara Putri Julius",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 30
+  },
+  {
+   "nis": "24.7634",
+   "nisn": "0084524192",
+   "nama": "Varel Alvarez",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 31
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 33
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 34
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 2",
+   "no": 35
+  },
+  {
+   "nis": "24.7407",
+   "nisn": "0083057841",
+   "nama": "Ade Firmansyah",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 1
+  },
+  {
+   "nis": "24.7409",
+   "nisn": "0071450778",
+   "nama": "Agung Sirait",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 2
+  },
+  {
+   "nis": "24.7425",
+   "nisn": "0089764307",
+   "nama": "Ari Bagus Setyawan",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 3
+  },
+  {
+   "nis": "24.7431",
+   "nisn": "0094952705",
+   "nama": "Aurelia Ayu Puspita",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 4
+  },
+  {
+   "nis": "24.7437",
+   "nisn": "0095442297",
+   "nama": "Bima Sakti",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 5
+  },
+  {
+   "nis": "24.7457",
+   "nisn": "0083990419",
+   "nama": "Fachri Abi Kurniawan",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 6
+  },
+  {
+   "nis": "24.7652",
+   "nisn": "0085695200",
+   "nama": "Farid Ilhamsyah",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 7
+  },
+  {
+   "nis": "24.7462",
+   "nisn": "0089957073",
+   "nama": "Fatimah Hawa Aurelia",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 8
+  },
+  {
+   "nis": "24.7466",
+   "nisn": "0083987232",
+   "nama": "Fera Syahputri Wilianti",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 9
+  },
+  {
+   "nis": "24.7467",
+   "nisn": "0089613025",
+   "nama": "Firza Fairuz Pratama",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 10
+  },
+  {
+   "nis": "24.7482",
+   "nisn": "3096326830",
+   "nama": "Ibnu Maulana",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 11
+  },
+  {
+   "nis": "24.7488",
+   "nisn": "0094677881",
+   "nama": "Irfan Maulana Aji",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 12
+  },
+  {
+   "nis": "24.7496",
+   "nisn": "0088146225",
+   "nama": "Kailanov Silvanabila",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 13
+  },
+  {
+   "nis": "24.7510",
+   "nisn": "0095721343",
+   "nama": "Millan Gilbram . R",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 14
+  },
+  {
+   "nis": "24.7511",
+   "nisn": "0087613797",
+   "nama": "Moch Revy Yusuf Jaelani",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 15
+  },
+  {
+   "nis": "24.7514",
+   "nisn": "3099847494",
+   "nama": "Muhamad Asrul",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 16
+  },
+  {
+   "nis": "24.7646",
+   "nisn": "0088325926",
+   "nama": "Muhammad Alex Nazril Darmasyah",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 17
+  },
+  {
+   "nis": "24.7521",
+   "nisn": "0098034724",
+   "nama": "Muhammad Ardhan Putra Ilza Mustakim",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 18
+  },
+  {
+   "nis": "24.7529",
+   "nisn": "0088306352",
+   "nama": "Muhammad Jourell Hakeem",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 19
+  },
+  {
+   "nis": "24.7532",
+   "nisn": "0081828399",
+   "nama": "Muhammad Riansyah",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 20
+  },
+  {
+   "nis": "24.7533",
+   "nisn": "0085863580",
+   "nama": "Muhammad Ridho Ramadani",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 21
+  },
+  {
+   "nis": "24.7538",
+   "nisn": "0084069293",
+   "nama": "Muhammad Zaki Kurniawan",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 22
+  },
+  {
+   "nis": "24.7540",
+   "nisn": "00966280613",
+   "nama": "Muhhamad Adrian Sucipto",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 23
+  },
+  {
+   "nis": "24.7541",
+   "nisn": "0097330722",
+   "nama": "Muiz Widinanta",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 24
+  },
+  {
+   "nis": "24.7556",
+   "nisn": "0081508459",
+   "nama": "Novriansyah Fahri Kusnadi",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 25
+  },
+  {
+   "nis": "24.7579",
+   "nisn": "0081218763",
+   "nama": "Rendi Maulana",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 26
+  },
+  {
+   "nis": "26.7927",
+   "nisn": "",
+   "nama": "Satria Bima Arkasya",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 27
+  },
+  {
+   "nis": "24.7602",
+   "nisn": "0082668285",
+   "nama": "Seha Anggraeni",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 28
+  },
+  {
+   "nis": "24.7617",
+   "nisn": "3093003135",
+   "nama": "Syahdan Rezaina",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 29
+  },
+  {
+   "nis": "24.7620",
+   "nisn": "0086712136",
+   "nama": "Syahrul Mubarok",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 30
+  },
+  {
+   "nis": "24.7623",
+   "nisn": "0083555830",
+   "nama": "Teguh Aji Saputra",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 31
+  },
+  {
+   "nis": "24.7642",
+   "nisn": "0084878052",
+   "nama": "Yusup Mustakim",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 33
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 34
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 3",
+   "no": 35
+  },
+  {
+   "nis": "24.7412",
+   "nisn": "0086534001",
+   "nama": "Ahmad Rizky Aprilriansyah",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 1
+  },
+  {
+   "nis": "24.7417",
+   "nisn": "0088335614",
+   "nama": "Alvian Cokro Wijaksono",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 2
+  },
+  {
+   "nis": "24.7433",
+   "nisn": "0097366240",
+   "nama": "Azifah Nur Fadlilah",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 3
+  },
+  {
+   "nis": "24.7438",
+   "nisn": "0084293784",
+   "nama": "Bintang Fajar Ramadan",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 4
+  },
+  {
+   "nis": "24.7441",
+   "nisn": "0089689691",
+   "nama": "Cheriel Dira Noviyanti",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 5
+  },
+  {
+   "nis": "24.7450",
+   "nisn": "3094132542",
+   "nama": "Dimas Prayoga",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 6
+  },
+  {
+   "nis": "24.7453",
+   "nisn": "81777201",
+   "nama": "Diva Pujonggo Seto",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 7
+  },
+  {
+   "nis": "24.7463",
+   "nisn": "0085924757",
+   "nama": "Fazar Adnan",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 8
+  },
+  {
+   "nis": "24.7472",
+   "nisn": "0082452736",
+   "nama": "Galang Fathurrohman",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 9
+  },
+  {
+   "nis": "24.7490",
+   "nisn": "0083802512",
+   "nama": "Javier Al Dafa",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 10
+  },
+  {
+   "nis": "24.7497",
+   "nisn": "3099656187",
+   "nama": "Keagan Ullezes Inggabouw",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 11
+  },
+  {
+   "nis": "24.7519",
+   "nisn": "3082376839",
+   "nama": "M. Adam Abdillah",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 12
+  },
+  {
+   "nis": "24.7515",
+   "nisn": "0075055684",
+   "nama": "Muhamad Fardan",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 13
+  },
+  {
+   "nis": "24.7523",
+   "nisn": "0084616874",
+   "nama": "Muhammad Caesar Mahendra",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 14
+  },
+  {
+   "nis": "24.7527",
+   "nisn": "0089080668",
+   "nama": "Muhammad Irsyad",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 15
+  },
+  {
+   "nis": "24.7536",
+   "nisn": "0084356274",
+   "nama": "Muhammad Robzky",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 16
+  },
+  {
+   "nis": "24.7539",
+   "nisn": "0085932014",
+   "nama": "Muhammad Zatnoval",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 17
+  },
+  {
+   "nis": "24.7569",
+   "nisn": "0086333948",
+   "nama": "Raihan Adhe Firmansyah",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 18
+  },
+  {
+   "nis": "24.7571",
+   "nisn": "0083002141",
+   "nama": "Rambhi Dwi Mustaram",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 19
+  },
+  {
+   "nis": "24.7580",
+   "nisn": "0082418434",
+   "nama": "Rendy Masyiakh Arthur Hutagalung",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 20
+  },
+  {
+   "nis": "24.7585",
+   "nisn": "0092281522",
+   "nama": "Ridho Irwansyah Harahap",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 21
+  },
+  {
+   "nis": "24.7599",
+   "nisn": "0077837180",
+   "nama": "Samuel Oktavianus Telaumbanua",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 22
+  },
+  {
+   "nis": "24.7603",
+   "nisn": "0088735506",
+   "nama": "Selomita Laurentrias Novalani",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 23
+  },
+  {
+   "nis": "24.7616",
+   "nisn": "0085192435",
+   "nama": "Sulthan Annashar",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 24
+  },
+  {
+   "nis": "24.7619",
+   "nisn": "0082717042",
+   "nama": "Syahrul Fajar Ramadhan",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 25
+  },
+  {
+   "nis": "24.7633",
+   "nisn": "0086082202",
+   "nama": "Valen Setianto",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 26
+  },
+  {
+   "nis": "24.7638",
+   "nisn": "0081522989",
+   "nama": "Wali Randah",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 27
+  },
+  {
+   "nis": "25.7654",
+   "nisn": "0",
+   "nama": "Weniman gulo",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 28
+  },
+  {
+   "nis": "24.7639",
+   "nisn": "3109342676",
+   "nama": "Wildan Ahmad",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 29
+  },
+  {
+   "nis": "24.7641",
+   "nisn": "3082854427",
+   "nama": "Yoga Pratama",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 30
+  },
+  {
+   "nis": "24.7645",
+   "nisn": "0089421146",
+   "nama": "Zaini Abdul Ghani",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 31
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 32
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 33
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 34
+  },
+  {
+   "nis": "",
+   "nisn": "",
+   "nama": "",
+   "kelas": "XII Teknik Komp Jaringan 4",
+   "no": 35
+  }
+ ]
+}

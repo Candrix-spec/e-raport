@@ -1,0 +1,116 @@
+/* E-Raport SMK 11 Maret Jakarta */
+:root {
+  --biru: #1a56db;
+  --biru-tua: #1443ad;
+  --hijau: #057a55;
+  --abu: #f3f4f6;
+  --garis: #9ca3af;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0; background: #eef1f6; color: #111827;
+  font-size: 15px;
+}
+a { color: var(--biru); }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 16px; }
+.topbar {
+  background: var(--biru); color: #fff; padding: 10px 16px;
+  display: flex; justify-content: space-between; align-items: center;
+  position: sticky; top: 0; z-index: 50;
+}
+.topbar .judul { font-weight: 700; font-size: 17px; }
+.topbar button {
+  background: rgba(255,255,255,.15); color: #fff; border: 1px solid rgba(255,255,255,.4);
+  border-radius: 6px; padding: 6px 12px; cursor: pointer; font-size: 14px;
+}
+.card {
+  background: #fff; border-radius: 10px; padding: 18px; margin: 14px 0;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+}
+/* ---- kop ala Excel ---- */
+.kop { text-align: center; margin: 6px 0 12px; }
+.kop h2 { margin: 2px 0; font-size: 21px; letter-spacing: 1px; }
+.kop h3 { margin: 2px 0; font-size: 18px; }
+.kop p { margin: 2px 0; font-size: 15px; }
+.info-tabel { width: 100%; border-collapse: collapse; margin-bottom: 10px; font-size: 15px; }
+.info-tabel td { padding: 3px 6px; }
+/* ---- tabel ala Excel ---- */
+table.excel { width: 100%; border-collapse: collapse; background: #fff; font-size: 14px; }
+table.excel th, table.excel td { border: 1px solid var(--garis); padding: 6px 8px; }
+table.excel thead th { background: #dbeafe; text-align: center; font-weight: 700; }
+table.excel td.no, table.excel td.tengah { text-align: center; }
+table.excel td.nama { text-align: left; min-width: 200px; }
+table.excel input[type=number], table.excel input[type=text] {
+  width: 100%; border: 1px solid #d1d5db; border-radius: 4px;
+  padding: 6px; font-size: 14px; text-align: center; background: #fffbe8;
+}
+table.excel input[type=text].lebar { text-align: left; }
+table.excel input:focus { outline: 2px solid var(--biru); background: #fff; }
+table.excel td.nr { font-weight: 700; text-align: center; background: #f0fdf4; min-width: 56px; }
+tr.baris-genap td { background: #fafafa; }
+tr.baris-genap td.nr { background: #f0fdf4; }
+.legenda { font-size: 13.5px; margin-top: 10px; line-height: 1.7; }
+.ttd { display: flex; justify-content: flex-end; margin-top: 8px; font-size: 14px; }
+.ttd .kol { text-align: center; min-width: 220px; }
+/* ---- tombol ---- */
+.btn {
+  display: inline-block; border: none; border-radius: 8px; cursor: pointer;
+  padding: 12px 26px; font-size: 16px; font-weight: 700; color: #fff;
+  background: var(--biru); margin: 6px 4px 6px 0;
+}
+.btn:hover { background: var(--biru-tua); }
+.btn.hijau { background: var(--hijau); }
+.btn.hijau:hover { background: #046c4e; }
+.btn.kecil { padding: 7px 14px; font-size: 13.5px; font-weight: 600; }
+.btn.merah { background: #c81e1e; }
+.btn.abu { background: #6b7280; }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.status-simpan { font-size: 14px; margin-left: 10px; font-weight: 600; }
+.status-simpan.ok { color: var(--hijau); }
+.status-simpan.belum { color: #c81e1e; }
+/* ---- kartu tugas ---- */
+.grid-tugas { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.kartu-tugas { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.08); border-left: 5px solid var(--biru); }
+.kartu-tugas h4 { margin: 0 0 4px; font-size: 17px; }
+.kartu-tugas p { margin: 2px 0 10px; color: #4b5563; font-size: 14px; }
+/* ---- login ---- */
+.login-wrap { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 16px; }
+.login-card { background: #fff; border-radius: 14px; padding: 34px 30px; width: 100%; max-width: 400px; box-shadow: 0 4px 18px rgba(0,0,0,.12); text-align: center; }
+.login-card h1 { font-size: 22px; margin: 0 0 4px; color: var(--biru); }
+.login-card p { color: #6b7280; margin: 0 0 20px; font-size: 14px; }
+.login-card label { display: block; text-align: left; font-weight: 600; font-size: 14px; margin: 12px 0 4px; }
+.login-card input { width: 100%; padding: 12px; font-size: 16px; border: 1px solid #d1d5db; border-radius: 8px; }
+.login-card .btn { width: 100%; margin-top: 18px; }
+.err { color: #c81e1e; font-size: 14px; margin-top: 10px; min-height: 20px; }
+/* ---- tab admin ---- */
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0; }
+.tabs button {
+  border: 1px solid #d1d5db; background: #fff; border-radius: 8px;
+  padding: 9px 16px; font-size: 14px; font-weight: 600; cursor: pointer;
+}
+.tabs button.aktif { background: var(--biru); color: #fff; border-color: var(--biru); }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 12px; font-weight: 700; }
+.badge.ok { background: #def7ec; color: #03543f; }
+.badge.belum { background: #fde8e8; color: #9b1c1c; }
+.badge.sebagian { background: #fef3c7; color: #92400e; }
+.scroll-x { overflow-x: auto; }
+table.excel th.sticky-kiri, table.excel td.sticky-kiri {
+  position: sticky; left: 0; background: #fff; z-index: 2;
+  box-shadow: 1px 0 0 var(--garis);
+}
+table.excel thead th.sticky-kiri { background: #dbeafe; z-index: 3; }
+select, input.teks { padding: 9px 12px; font-size: 14.5px; border: 1px solid #d1d5db; border-radius: 8px; }
+.form-baris { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+.form-baris label { font-weight: 600; font-size: 14px; }
+.hint { font-size: 13px; color: #6b7280; }
+/* ---- cetak ---- */
+@media print {
+  body { background: #fff; font-size: 11px; }
+  .topbar, .no-print, .tabs, .btn { display: none !important; }
+  .wrap { max-width: none; padding: 0; }
+  .card { box-shadow: none; border-radius: 0; padding: 0; margin: 0; }
+  table.excel { font-size: 10.5px; }
+  table.excel th, table.excel td { padding: 3px 5px; }
+  @page { size: landscape; margin: 10mm; }
+}

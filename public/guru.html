@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Isi Nilai — E-Raport</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  .kolom-nr { min-width: 60px; }
+  input.nilai { width: 76px !important; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="judul">📋 E-Raport <span id="namaGuru" style="font-weight:400;font-size:14px"></span></div>
+  <button onclick="keluar()">Keluar</button>
+</div>
+<div class="wrap">
+
+  <!-- DAFTAR TUGAS -->
+  <div id="halDaftar">
+    <div class="card">
+      <h3 style="margin-top:0">Pilih kelas yang mau diisi nilainya</h3>
+      <div class="grid-tugas" id="daftarTugas"></div>
+    </div>
+    <div class="card" id="kartuWali" style="display:none">
+      <h3 style="margin-top:0">Sebagai Wali Kelas — isi kehadiran &amp; catatan siswa</h3>
+      <div class="grid-tugas" id="daftarWali"></div>
+    </div>
+  </div>
+
+  <!-- FORM NILAI (mirip Dafnil Excel) -->
+  <div id="halNilai" style="display:none">
+    <div class="card">
+      <button class="btn kecil abu no-print" onclick="kembali()">← Kembali ke daftar</button>
+      <div class="kop">
+        <h2>DAFTAR NILAI SISWA</h2>
+        <h3>SMK 11 MARET JAKARTA</h3>
+        <p id="kopTahun">TAHUN PELAJARAN 2026 / 2027</p>
+      </div>
+      <table class="info-tabel">
+        <tr>
+          <td style="width:130px">Semester</td><td style="width:10px">:</td><td id="infoSemester"></td>
+          <td style="width:110px">Kelas</td><td style="width:10px">:</td><td id="infoKelas"></td>
+        </tr>
+        <tr>
+          <td>Mata Pelajaran</td><td>:</td><td id="infoMapel" style="font-weight:700"></td>
+          <td>Wali kelas</td><td>:</td><td id="infoWali"></td>
+        </tr>
+      </table>
+      <div class="scroll-x">
+      <table class="excel" id="tblNilai">
+        <thead>
+          <tr>
+            <th style="width:36px">No</th><th>NIS</th><th>NISN</th>
+            <th>Nama Siswa</th><th id="thAbs">Absensi</th><th id="thNh">NH</th><th id="thPts">PTS</th><th>NR</th>
+          </tr>
+          <tr id="barisBobot"><th></th><th></th><th></th><th></th><th class="hint"></th><th class="hint"></th><th class="hint"></th><th></th></tr>
+        </thead>
+        <tbody id="bdNilai"></tbody>
+      </table>
+      </div>
+      <div class="legenda" id="legenda"></div>
+      <div style="margin-top:14px">
+        <button class="btn hijau" id="btnSimpan" onclick="simpanNilai()">💾 SIMPAN NILAI</button>
+        <span class="status-simpan" id="stSimpan"></span>
+      </div>
+      <div class="ttd">
+        <div class="kol">
+          <div id="tglTtd">Jakarta, </div>
+          <div style="margin-top:56px">Guru Mapel</div>
+        </div>
+      </div>
+      <p class="hint">💡 Tips: tekan <b>Enter</b> untuk pindah ke siswa berikutnya (seperti di Excel). Kolom <b>NR terisi otomatis</b> — tidak perlu dihitung sendiri.</p>
+    </div>
+  </div>
+
+  <!-- FORM CATATAN WALI (mirip sheet CAS Excel) -->
+  <div id="halWali" style="display:none">
+    <div class="card">
+      <button class="btn kecil abu" onclick="kembali()">← Kembali ke daftar</button>
+      <div class="kop">
+        <h2>CATATAN TENGAH SEMESTER SISWA</h2>
+        <h3>SMK 11 MARET JAKARTA</h3>
+        <p id="kopTahun2">TAHUN PELAJARAN 2026 / 2027</p>
+      </div>
+      <table class="info-tabel">
+        <tr>
+          <td style="width:130px">Semester</td><td style="width:10px">:</td><td id="wSemester"></td>
+          <td style="width:110px">Kelas</td><td style="width:10px">:</td><td id="wKelas"></td>
+        </tr>
+      </table>
+      <div class="scroll-x">
+      <table class="excel">
+        <thead>
+          <tr>
+            <th rowspan="2" style="width:36px">No</th><th rowspan="2">NIS</th><th rowspan="2">NISN</th>
+            <th rowspan="2">Nama Siswa</th><th colspan="4">Kehadiran</th>
+            <th rowspan="2">Catatan Kasus</th><th rowspan="2">Tindak Lanjut</th><th rowspan="2">Catatan Selama Pembelajaran</th>
+          </tr>
+          <tr><th>S</th><th>I</th><th>A</th><th>Terlambat</th></tr>
+        </thead>
+        <tbody id="bdWali"></tbody>
+      </table>
+      </div>
+      <div class="legenda">
+        <b>Kehadiran</b> : S = Sakit, I = Izin, A = Alpa (isi jumlahnya, misal 2)<br>
+        <b>Catatan Kasus</b> : pelanggaran/tindakan yang perlu dicatat &nbsp;•&nbsp;
+        <b>Tindak Lanjut</b> : pembinaan yang dilakukan &nbsp;•&nbsp;
+        <b>Catatan Pembelajaran</b> : catatan untuk orang tua di raport
+      </div>
+      <div style="margin-top:14px">
+        <button class="btn hijau" onclick="simpanCatatan()">💾 SIMPAN CATATAN</button>
+        <span class="status-simpan" id="stWali"></span>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script>
+let ME = null, PERIODE = null, TUGAS = null, SISWA = [];
+let WALI_KELAS = null, WALI_SISWA = [];
+let kotor = false;
+
+async function api(url, opt) {
+  const r = await fetch(url, opt);
+  if (r.status === 401) { location.href = '/'; return null; }
+  return r.json();
+}
+function keluar() { api('/api/logout', { method: 'POST' }).then(() => location.href = '/'); }
+function kembali() {
+  if (kotor && !confirm('Ada nilai yang belum disimpan. Tetap kembali?')) return;
+  kotor = false;
+  halDaftar.style.display = ''; halNilai.style.display = 'none'; halWali.style.display = 'none';
+  muatDaftar();
+}
+function fmtTgl() {
+  const b = ['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
+  const d = new Date();
+  return `${d.getDate()} ${b[d.getMonth()]} ${d.getFullYear()}`;
+}
+
+async function init() {
+  const me = await api('/api/me');
+  if (!me || !me.user) return;
+  ME = me.user;
+  namaGuru.textContent = '— ' + ME.nama;
+  const p = await api('/api/periode');
+  PERIODE = p.periode;
+  muatDaftar();
+}
+
+async function muatDaftar() {
+  const t = await api('/api/tugas');
+  const w = await api('/api/wali');
+  const d = document.getElementById('daftarTugas');
+  d.innerHTML = t.tugas.length ? '' : '<p class="hint">Belum ada tugas mengajar. Hubungi kurikulum.</p>';
+  for (const x of t.tugas) {
+    const el = document.createElement('div');
+    el.className = 'kartu-tugas';
+    el.innerHTML = `<h4>${x.mapel}</h4><p>${x.kelas}<br>Wali: ${x.wali || '-'}</p>
+      <button class="btn kecil" onclick="bukaNilai(${x.id})">✏️ Isi Nilai</button>`;
+    d.appendChild(el);
+  }
+  const kw = document.getElementById('kartuWali');
+  if (w.kelas.length) {
+    kw.style.display = '';
+    const dw = document.getElementById('daftarWali');
+    dw.innerHTML = '';
+    for (const k of w.kelas) {
+      const el = document.createElement('div');
+      el.className = 'kartu-tugas';
+      el.innerHTML = `<h4>${k.kelas}</h4><p>Catatan wali kelas</p>
+        <button class="btn kecil" onclick="bukaWali(${k.class_id})">📝 Isi Catatan</button>`;
+      dw.appendChild(el);
+    }
+  } else kw.style.display = 'none';
+}
+
+// ---------- form nilai ----------
+async function bukaNilai(id) {
+  const j = await api('/api/tugas/' + id);
+  if (!j || !j.ok) return;
+  TUGAS = j.tugas; PERIODE = { ...PERIODE, ...j.periode }; SISWA = j.siswa;
+  kopTahun.textContent = 'TAHUN PELAJARAN ' + j.periode.tahun;
+  infoSemester.textContent = j.periode.semester;
+  infoKelas.textContent = TUGAS.kelas;
+  infoMapel.textContent = TUGAS.mapel;
+  infoWali.textContent = TUGAS.wali || '-';
+  tglTtd.textContent = 'Jakarta, ' + fmtTgl();
+  // header kolom dinamis sesuai periode
+  const kol = j.periode.kolom;
+  thAbs.textContent = kol[0].label; thNh.textContent = kol[1] ? kol[1].label : ''; thPts.textContent = kol[2] ? kol[2].label : '';
+  const bb = barisBobot.cells;
+  bb[4].textContent = kol[0].bobot; bb[5].textContent = kol[1] ? kol[1].bobot : ''; bb[6].textContent = kol[2] ? kol[2].bobot : '';
+  legenda.innerHTML =
+    `<b>${kol[0].label}</b> : Nilai Kehadiran Peserta Didik` +
+    (kol[1] ? ` &nbsp;•&nbsp; <b>${kol[1].label}</b> : Nilai Harian (Nilai Tugas + Ulangan)` : '') +
+    (kol[2] ? ` &nbsp;•&nbsp; <b>${kol[2].label}</b> : Nilai ${kol[2].label}` : '') +
+    ` &nbsp;•&nbsp; <b>NR</b> : Nilai Raport ${j.periode.nama} — <i>terisi otomatis</i>`;
+  const tb = document.getElementById('bdNilai');
+  tb.innerHTML = '';
+  SISWA.forEach((s, i) => {
+    const tr = document.createElement('tr');
+    if (i % 2) tr.className = 'baris-genap';
+    tr.innerHTML =
+      `<td class="no">${s.no}</td><td class="tengah">${s.nis || ''}</td><td class="tengah">${s.nisn || ''}</td>` +
+      `<td class="nama">${s.nama}</td>` +
+      kol.map(k =>
+        `<td><input class="nilai" type="number" min="0" max="100" step="0.01" inputmode="decimal"
+          data-sid="${s.id}" data-key="${k.key}" value="${s[k.key] ?? ''}" aria-label="${k.label} ${s.nama}"></td>`
+      ).join('') +
+      `<td class="nr kolom-nr" id="nr-${s.id}">${s.nr ?? ''}</td>`;
+    tb.appendChild(tr);
+  });
+  tb.querySelectorAll('input.nilai').forEach(inp => {
+    inp.addEventListener('input', () => { kotor = true; stSimpan.className = 'status-simpan belum'; stSimpan.textContent = '● Belum disimpan'; hitungBaris(inp); });
+    inp.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const inputs = [...tb.querySelectorAll('input.nilai')];
+        const idx = inputs.indexOf(inp);
+        const nKol = PERIODE.kolom.length;
+        const kolomIdx = idx % nKol;
+        // pindah ke baris berikutnya, kolom yang sama (seperti di Excel)
+        const target = inputs[Math.floor(idx / nKol) * nKol + nKol + kolomIdx];
+        if (target) { target.focus(); target.select(); }
+      }
+    });
+  });
+  kotor = false;
+  stSimpan.className = 'status-simpan ok';
+  stSimpan.textContent = SISWA.some(s => s.nr !== null && s.nr !== undefined) ? '✓ Sudah tersimpan' : '';
+  halDaftar.style.display = 'none'; halNilai.style.display = '';
+  window.scrollTo(0, 0);
+}
+function hitungBaris(inp) {
+  const sid = inp.dataset.sid;
+  const kol = PERIODE.kolom;
+  const vals = kol.map(k => {
+    const el = document.querySelector(`input[data-sid="${sid}"][data-key="${k.key}"]`);
+    return el && el.value !== '' ? parseFloat(el.value) : null;
+  });
+  let total = 0, ada = false;
+  kol.forEach((k, i) => { if (vals[i] !== null && isFinite(vals[i])) { ada = true; total += vals[i] * k.bobot; } });
+  document.getElementById('nr-' + sid).textContent = ada ? (Math.round(total * 100) / 100) : '';
+}
+async function simpanNilai() {
+  const kol = PERIODE.kolom;
+  const rows = SISWA.map(s => {
+    const r = { student_id: s.id };
+    kol.forEach(k => {
+      const el = document.querySelector(`input[data-sid="${s.id}"][data-key="${k.key}"]`);
+      r[k.key] = el ? el.value : '';
+    });
+    return r;
+  });
+  const btn = document.getElementById('btnSimpan');
+  btn.disabled = true; btn.textContent = '⏳ Menyimpan...';
+  const j = await api('/api/nilai', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ assignment_id: TUGAS.id, rows })
+  });
+  btn.disabled = false; btn.textContent = '💾 SIMPAN NILAI';
+  if (j && j.ok) {
+    kotor = false;
+    stSimpan.className = 'status-simpan ok';
+    stSimpan.textContent = `✓ Tersimpan (${j.tersimpan} siswa) — sudah masuk Legger`;
+  } else {
+    stSimpan.className = 'status-simpan belum';
+    stSimpan.textContent = 'Gagal menyimpan, coba lagi';
+  }
+}
+
+// ---------- form wali ----------
+async function bukaWali(class_id) {
+  const j = await api('/api/wali/' + class_id);
+  if (!j || !j.ok) return;
+  WALI_KELAS = j.kelas; WALI_SISWA = j.siswa;
+  kopTahun2.textContent = 'TAHUN PELAJARAN ' + j.periode.tahun;
+  wSemester.textContent = j.periode.semester;
+  wKelas.textContent = WALI_KELAS.nama;
+  const tb = document.getElementById('bdWali');
+  tb.innerHTML = '';
+  WALI_SISWA.forEach((s, i) => {
+    const tr = document.createElement('tr');
+    if (i % 2) tr.className = 'baris-genap';
+    tr.innerHTML =
+      `<td class="no">${s.no}</td><td class="tengah">${s.nis || ''}</td><td class="tengah">${s.nisn || ''}</td>` +
+      `<td class="nama">${s.nama}</td>` +
+      ['s','i','a','terlambat'].map(k =>
+        `<td><input class="nilai" type="number" min="0" max="100" inputmode="numeric" data-sid="${s.id}" data-key="${k}" value="${s[k] ?? ''}"></td>`
+      ).join('') +
+      `<td><input type="text" class="lebar" data-sid="${s.id}" data-key="kasus" value="${(s.kasus || '').replace(/"/g,'&quot;')}" placeholder="—"></td>` +
+      `<td><input type="text" class="lebar" data-sid="${s.id}" data-key="tindak_lanjut" value="${(s.tindak_lanjut || '').replace(/"/g,'&quot;')}" placeholder="—"></td>` +
+      `<td><input type="text" class="lebar" data-sid="${s.id}" data-key="catatan" value="${(s.catatan || '').replace(/"/g,'&quot;')}" placeholder="—"></td>`;
+    tb.appendChild(tr);
+  });
+  tb.querySelectorAll('input').forEach(inp => inp.addEventListener('input', () => {
+    kotor = true; stWali.className = 'status-simpan belum'; stWali.textContent = '● Belum disimpan';
+  }));
+  kotor = false; stWali.textContent = '';
+  halDaftar.style.display = 'none'; halWali.style.display = '';
+  window.scrollTo(0, 0);
+}
+async function simpanCatatan() {
+  const rows = WALI_SISWA.map(s => {
+    const r = { student_id: s.id };
+    ['s','i','a','terlambat','kasus','tindak_lanjut','catatan'].forEach(k => {
+      const el = document.querySelector(`#bdWali input[data-sid="${s.id}"][data-key="${k}"]`);
+      r[k] = el ? el.value : '';
+    });
+    return r;
+  });
+  const j = await api('/api/catatan', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ class_id: WALI_KELAS.id, rows })
+  });
+  if (j && j.ok) {
+    kotor = false;
+    stWali.className = 'status-simpan ok';
+    stWali.textContent = `✓ Tersimpan (${j.tersimpan} siswa) — sudah masuk Legger`;
+  } else {
+    stWali.className = 'status-simpan belum';
+    stWali.textContent = 'Gagal menyimpan, coba lagi';
+  }
+}
+
+window.addEventListener('beforeunload', (e) => { if (kotor) e.preventDefault(); });
+init();
+</script>
+</body>
+</html>
